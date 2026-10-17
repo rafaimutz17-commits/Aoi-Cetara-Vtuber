@@ -1,0 +1,36 @@
+﻿id,min,default,max,keyforms,purpose,status
+ParamAngleX,-30,0,30,"[-30, 0, 30]","Kepala X; uji sudut gabungan, tambah backfill sebelum ekstrem.",KEYFORMS_NOT_BUILT
+ParamAngleY,-30,0,30,"[-30, 0, 30]","Kepala Y; uji sudut gabungan, tambah backfill sebelum ekstrem.",KEYFORMS_NOT_BUILT
+ParamAngleZ,-30,0,30,"[-30, 0, 30]","Kepala Z; uji sudut gabungan, tambah backfill sebelum ekstrem.",KEYFORMS_NOT_BUILT
+ParamEyeBallX,-1,0,1,"[-1, 0, 1]",Arah iris/pupil/glint; clipping ke sclera.,KEYFORMS_NOT_BUILT
+ParamEyeBallY,-1,0,1,"[-1, 0, 1]",Arah iris/pupil/glint; clipping ke sclera.,KEYFORMS_NOT_BUILT
+ParamEyeLOpen,0,1,1,"[0, 0.5, 1]",Tutup penuh tanpa bocor; default 1.,KEYFORMS_NOT_BUILT
+ParamEyeLSmile,0,0,1,"[0, 1]",Bentuk mata senyum pada kedipan; netral 0.,KEYFORMS_NOT_BUILT
+ParamBrowLY,-1,0,1,"[-1, 0, 1]","Alis L Y; Form: -1 sedih, 0 netral, +1 tegas/marah.",KEYFORMS_NOT_BUILT
+ParamBrowLAngle,-1,0,1,"[-1, 0, 1]","Alis L Angle; Form: -1 sedih, 0 netral, +1 tegas/marah.",KEYFORMS_NOT_BUILT
+ParamBrowLForm,-1,0,1,"[-1, 0, 1]","Alis L Form; Form: -1 sedih, 0 netral, +1 tegas/marah.",KEYFORMS_NOT_BUILT
+ParamEyeROpen,0,1,1,"[0, 0.5, 1]",Tutup penuh tanpa bocor; default 1.,KEYFORMS_NOT_BUILT
+ParamEyeRSmile,0,0,1,"[0, 1]",Bentuk mata senyum pada kedipan; netral 0.,KEYFORMS_NOT_BUILT
+ParamBrowRY,-1,0,1,"[-1, 0, 1]","Alis R Y; Form: -1 sedih, 0 netral, +1 tegas/marah.",KEYFORMS_NOT_BUILT
+ParamBrowRAngle,-1,0,1,"[-1, 0, 1]","Alis R Angle; Form: -1 sedih, 0 netral, +1 tegas/marah.",KEYFORMS_NOT_BUILT
+ParamBrowRForm,-1,0,1,"[-1, 0, 1]","Alis R Form; Form: -1 sedih, 0 netral, +1 tegas/marah.",KEYFORMS_NOT_BUILT
+ParamMouthOpenY,0,0,1,"[0, 0.25, 0.5, 0.75, 1]",Bukaan mulut; default 0. Padankan ke volume/audio atau pelacakan.,KEYFORMS_NOT_BUILT
+ParamMouthForm,-1,0,1,"[-1, 0, 1]",Bentuk bibir: sedih / netral / senyum. Cross-key dengan bukaan.,KEYFORMS_NOT_BUILT
+ParamMouthVowel,0,0,5,"[0, 1, 2, 3, 4, 5]","CUSTOM: 0 netral, 1 A, 2 I, 3 U, 4 E, 5 O. Perlu penggerak fonem; volume audio saja tidak memilih vokal.",KEYFORMS_NOT_BUILT
+ParamBodyAngleX,-10,0,10,"[-10, 0, 10]",Rotasi/warp badan X lembut; amplitudo akhir ditentukan saat rig.,KEYFORMS_NOT_BUILT
+ParamBodyAngleY,-10,0,10,"[-10, 0, 10]",Rotasi/warp badan Y lembut; amplitudo akhir ditentukan saat rig.,KEYFORMS_NOT_BUILT
+ParamBodyAngleZ,-10,0,10,"[-10, 0, 10]",Rotasi/warp badan Z lembut; amplitudo akhir ditentukan saat rig.,KEYFORMS_NOT_BUILT
+ParamBreath,0,0,1,"[0, 1]","Napas lembut; kunci kaki, bahu naik tipis.",KEYFORMS_NOT_BUILT
+ParamCheek,0,0,1,"[0, 1]",Opacity blush. Artwork blush opsional tersedia; selaraskan pada pipi lalu atur opacity default 0.,KEYFORMS_NOT_BUILT
+ParamHairBackLSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamHairBackRSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamHairSideLSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamHairSideRSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamHairFrontSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamRibbonSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamSkirtLSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamSkirtRSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamEarringLSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamEarringRSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamChainSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT
+ParamWhaleOrnamentSway,-1,0,1,"[-1, 0, 1]",CUSTOM physics output; jangan dipetakan sebagai input pelacakan.,KEYFORMS_NOT_BUILT

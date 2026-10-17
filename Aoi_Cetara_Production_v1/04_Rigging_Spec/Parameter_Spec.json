@@ -1,0 +1,461 @@
+{
+  "status": "PLANNED_NOT_IMPLEMENTED",
+  "parameters": [
+    {
+      "id": "ParamAngleX",
+      "min": -30,
+      "default": 0,
+      "max": 30,
+      "keyforms": [
+        -30,
+        0,
+        30
+      ],
+      "purpose": "Kepala X; uji sudut gabungan, tambah backfill sebelum ekstrem.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamAngleY",
+      "min": -30,
+      "default": 0,
+      "max": 30,
+      "keyforms": [
+        -30,
+        0,
+        30
+      ],
+      "purpose": "Kepala Y; uji sudut gabungan, tambah backfill sebelum ekstrem.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamAngleZ",
+      "min": -30,
+      "default": 0,
+      "max": 30,
+      "keyforms": [
+        -30,
+        0,
+        30
+      ],
+      "purpose": "Kepala Z; uji sudut gabungan, tambah backfill sebelum ekstrem.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamEyeBallX",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "Arah iris/pupil/glint; clipping ke sclera.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamEyeBallY",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "Arah iris/pupil/glint; clipping ke sclera.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamEyeLOpen",
+      "min": 0,
+      "default": 1,
+      "max": 1,
+      "keyforms": [
+        0,
+        0.5,
+        1
+      ],
+      "purpose": "Tutup penuh tanpa bocor; default 1.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamEyeLSmile",
+      "min": 0,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        0,
+        1
+      ],
+      "purpose": "Bentuk mata senyum pada kedipan; netral 0.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamBrowLY",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "Alis L Y; Form: -1 sedih, 0 netral, +1 tegas/marah.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamBrowLAngle",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "Alis L Angle; Form: -1 sedih, 0 netral, +1 tegas/marah.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamBrowLForm",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "Alis L Form; Form: -1 sedih, 0 netral, +1 tegas/marah.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamEyeROpen",
+      "min": 0,
+      "default": 1,
+      "max": 1,
+      "keyforms": [
+        0,
+        0.5,
+        1
+      ],
+      "purpose": "Tutup penuh tanpa bocor; default 1.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamEyeRSmile",
+      "min": 0,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        0,
+        1
+      ],
+      "purpose": "Bentuk mata senyum pada kedipan; netral 0.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamBrowRY",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "Alis R Y; Form: -1 sedih, 0 netral, +1 tegas/marah.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamBrowRAngle",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "Alis R Angle; Form: -1 sedih, 0 netral, +1 tegas/marah.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamBrowRForm",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "Alis R Form; Form: -1 sedih, 0 netral, +1 tegas/marah.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamMouthOpenY",
+      "min": 0,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      "purpose": "Bukaan mulut; default 0. Padankan ke volume/audio atau pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamMouthForm",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "Bentuk bibir: sedih / netral / senyum. Cross-key dengan bukaan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamMouthVowel",
+      "min": 0,
+      "default": 0,
+      "max": 5,
+      "keyforms": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "CUSTOM: 0 netral, 1 A, 2 I, 3 U, 4 E, 5 O. Perlu penggerak fonem; volume audio saja tidak memilih vokal.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamBodyAngleX",
+      "min": -10,
+      "default": 0,
+      "max": 10,
+      "keyforms": [
+        -10,
+        0,
+        10
+      ],
+      "purpose": "Rotasi/warp badan X lembut; amplitudo akhir ditentukan saat rig.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamBodyAngleY",
+      "min": -10,
+      "default": 0,
+      "max": 10,
+      "keyforms": [
+        -10,
+        0,
+        10
+      ],
+      "purpose": "Rotasi/warp badan Y lembut; amplitudo akhir ditentukan saat rig.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamBodyAngleZ",
+      "min": -10,
+      "default": 0,
+      "max": 10,
+      "keyforms": [
+        -10,
+        0,
+        10
+      ],
+      "purpose": "Rotasi/warp badan Z lembut; amplitudo akhir ditentukan saat rig.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamBreath",
+      "min": 0,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        0,
+        1
+      ],
+      "purpose": "Napas lembut; kunci kaki, bahu naik tipis.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamCheek",
+      "min": 0,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        0,
+        1
+      ],
+      "purpose": "Opacity blush. Artwork blush opsional tersedia; selaraskan pada pipi lalu atur opacity default 0.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamHairBackLSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamHairBackRSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamHairSideLSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamHairSideRSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamHairFrontSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamRibbonSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamSkirtLSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamSkirtRSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamEarringLSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamEarringRSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamChainSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    },
+    {
+      "id": "ParamWhaleOrnamentSway",
+      "min": -1,
+      "default": 0,
+      "max": 1,
+      "keyforms": [
+        -1,
+        0,
+        1
+      ],
+      "purpose": "CUSTOM physics output; jangan dipetakan sebagai input pelacakan.",
+      "status": "KEYFORMS_NOT_BUILT"
+    }
+  ]
+}

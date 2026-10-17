@@ -1,0 +1,44 @@
+{
+  "status": "GUIDE_ONLY_NOT_VTUBE_JSON",
+  "convention": "anatomical model L/R; verify mirror behavior in VTS calibration",
+  "mapping": [
+    {
+      "source": "FaceAngleX",
+      "target": "ParamAngleX"
+    },
+    {
+      "source": "FaceAngleY",
+      "target": "ParamAngleY"
+    },
+    {
+      "source": "FaceAngleZ",
+      "target": "ParamAngleZ"
+    },
+    {
+      "source": "EyeOpenLeft",
+      "target": "ParamEyeLOpen"
+    },
+    {
+      "source": "EyeOpenRight",
+      "target": "ParamEyeROpen"
+    },
+    {
+      "source": "EyeLeftX / EyeRightX (available tracker)",
+      "target": "ParamEyeBallX"
+    },
+    {
+      "source": "EyeLeftY / EyeRightY (available tracker)",
+      "target": "ParamEyeBallY"
+    },
+    {
+      "source": "MouthOpen or supported audio volume input",
+      "target": "ParamMouthOpenY"
+    }
+  ],
+  "notes": [
+    "Pilih input yang tersedia pada perangkat/tracker VTS; kalibrasi nilai min/max.",
+    "MouthForm default 0 harus netral; jangan menaruh smile di idle default.",
+    "Volume audio bukan deteksi vokal; ParamMouthVowel memerlukan penggerak tambahan bila diperlukan.",
+    "VTS membuat konfigurasi vtube.json setelah model runtime asli dimuat."
+  ]
+}

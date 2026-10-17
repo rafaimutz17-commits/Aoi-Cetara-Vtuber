@@ -1,0 +1,4337 @@
+{
+ "checksums": {
+  "listed": 178,
+  "ok": 178,
+  "mismatch": [],
+  "missing": [],
+  "unlisted": []
+ },
+ "manifest": {
+  "rows": 113,
+  "png_canvas_sizes": [
+   [
+    1024,
+    1536
+   ]
+  ],
+  "empty_layers": [],
+  "bbox_mismatch": [],
+  "visible": 86,
+  "hidden": 27
+ },
+ "partition": {
+  "visible_layers": 86,
+  "overlap_pixels": 0,
+  "covered_pixels": 964002,
+  "touching_pairs": 218,
+  "seams": [
+   {
+    "a": "TRAIN_RIGHT",
+    "b": "OVERSKIRT_RIGHT",
+    "contact_px": 1265
+   },
+   {
+    "a": "SKIRT_BACK_RIGHT",
+    "b": "TRAIN_RIGHT",
+    "contact_px": 1150
+   },
+   {
+    "a": "TRAIN_LEFT",
+    "b": "OVERSKIRT_LEFT",
+    "contact_px": 915
+   },
+   {
+    "a": "SKIRT_BACK_LEFT",
+    "b": "TRAIN_LEFT",
+    "contact_px": 914
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "HAIR_TIP_LEFT",
+    "contact_px": 653
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "HAIR_TIP_RIGHT",
+    "contact_px": 644
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "HAIR_TRESS_LEFT",
+    "contact_px": 513
+   },
+   {
+    "a": "LEG_RIGHT",
+    "b": "LEG_LEFT",
+    "contact_px": 504
+   },
+   {
+    "a": "OVERSKIRT_LEFT",
+    "b": "SKIRT_FRONT_LEFT",
+    "contact_px": 453
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "HAIR_TRESS_RIGHT",
+    "contact_px": 446
+   },
+   {
+    "a": "SKIRT_BACK_CENTER",
+    "b": "LEG_LEFT",
+    "contact_px": 419
+   },
+   {
+    "a": "OVERSKIRT_RIGHT",
+    "b": "SKIRT_FRONT_RIGHT",
+    "contact_px": 410
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "HAND_LEFT",
+    "contact_px": 395
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "HAND_RIGHT",
+    "contact_px": 385
+   },
+   {
+    "a": "SKIRT_BACK_CENTER",
+    "b": "LEG_RIGHT",
+    "contact_px": 381
+   },
+   {
+    "a": "LEG_LEFT",
+    "b": "THIGH_JEWELS_LEFT",
+    "contact_px": 370
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "SLEEVE_RIGHT",
+    "contact_px": 353
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "SLEEVE_LEFT",
+    "contact_px": 348
+   },
+   {
+    "a": "SKIRT_FRONT_CENTER",
+    "b": "WAIST_CHAIN",
+    "contact_px": 340
+   },
+   {
+    "a": "SKIRT_BACK_CENTER",
+    "b": "OVERSKIRT_LEFT",
+    "contact_px": 336
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "ARM_RIGHT",
+    "contact_px": 312
+   },
+   {
+    "a": "BODICE",
+    "b": "CHEST_RIBBON_TAIL_LEFT",
+    "contact_px": 310
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "HAIR_SIDE_LEFT",
+    "contact_px": 304
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "ARM_LEFT",
+    "contact_px": 301
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "HAIR_CHAIN_LEFT",
+    "contact_px": 300
+   },
+   {
+    "a": "SKIRT_FRONT_RIGHT",
+    "b": "WAIST_RIBBON_RIGHT",
+    "contact_px": 293
+   },
+   {
+    "a": "SKIRT_FRONT_LEFT",
+    "b": "WAIST_RIBBON_LEFT",
+    "contact_px": 288
+   },
+   {
+    "a": "BODICE",
+    "b": "CHEST_CHAIN",
+    "contact_px": 279
+   },
+   {
+    "a": "TORSO_UPPER",
+    "b": "NECK_RIBBON",
+    "contact_px": 279
+   },
+   {
+    "a": "BODICE",
+    "b": "CHEST_RIBBON_TAIL_RIGHT",
+    "contact_px": 278
+   },
+   {
+    "a": "SKIRT_BACK_CENTER",
+    "b": "TRAIN_RIGHT",
+    "contact_px": 269
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "OVERSKIRT_LEFT",
+    "contact_px": 269
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "HAIR_SIDE_RIGHT",
+    "contact_px": 256
+   },
+   {
+    "a": "BODICE",
+    "b": "TORSO_UPPER",
+    "contact_px": 249
+   },
+   {
+    "a": "SKIRT_FRONT_LEFT",
+    "b": "SKIRT_FRONT_CENTER",
+    "contact_px": 248
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "OVERSKIRT_RIGHT",
+    "contact_px": 247
+   },
+   {
+    "a": "BODICE",
+    "b": "CHEST_RIBBON_LEFT",
+    "contact_px": 236
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "HAIR_FLOWERS_SMALL",
+    "contact_px": 234
+   },
+   {
+    "a": "BODICE",
+    "b": "CHEST_RIBBON_RIGHT",
+    "contact_px": 234
+   },
+   {
+    "a": "SKIRT_BACK_RIGHT",
+    "b": "SKIRT_BACK_CENTER",
+    "contact_px": 233
+   },
+   {
+    "a": "SKIRT_BACK_LEFT",
+    "b": "SKIRT_BACK_CENTER",
+    "contact_px": 225
+   },
+   {
+    "a": "SKIRT_FRONT_RIGHT",
+    "b": "SKIRT_FRONT_CENTER",
+    "contact_px": 225
+   },
+   {
+    "a": "LEG_LEFT",
+    "b": "THIGH_GARTER_LEFT",
+    "contact_px": 212
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "WHALE_TAIL_ORNAMENT",
+    "contact_px": 211
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "SKIRT_FRONT_RIGHT",
+    "contact_px": 208
+   },
+   {
+    "a": "SLEEVE_RIGHT",
+    "b": "SLEEVE_FLOWER_RIGHT",
+    "contact_px": 208
+   },
+   {
+    "a": "SLEEVE_LEFT",
+    "b": "SLEEVE_FLOWER_LEFT",
+    "contact_px": 208
+   },
+   {
+    "a": "HAIR_TIP_LEFT",
+    "b": "HAIR_STAR_LEFT",
+    "contact_px": 204
+   },
+   {
+    "a": "SKIRT_BACK_CENTER",
+    "b": "SHOE_RIGHT",
+    "contact_px": 202
+   },
+   {
+    "a": "SKIRT_BACK_CENTER",
+    "b": "SHOE_LEFT",
+    "contact_px": 195
+   },
+   {
+    "a": "SKIRT_BACK_LEFT",
+    "b": "OVERSKIRT_LEFT",
+    "contact_px": 192
+   },
+   {
+    "a": "SHOE_RIGHT",
+    "b": "SHOE_LEFT",
+    "contact_px": 188
+   },
+   {
+    "a": "NECK",
+    "b": "COLLAR",
+    "contact_px": 180
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "SKIRT_FRONT_LEFT",
+    "contact_px": 178
+   },
+   {
+    "a": "BANG_CENTER",
+    "b": "FOREHEAD_JEWEL",
+    "contact_px": 178
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "HAIR_CHAIN_RIGHT",
+    "contact_px": 177
+   },
+   {
+    "a": "SKIRT_FRONT_LEFT",
+    "b": "ARM_LEFT",
+    "contact_px": 171
+   },
+   {
+    "a": "SKIRT_BACK_CENTER",
+    "b": "OVERSKIRT_RIGHT",
+    "contact_px": 164
+   },
+   {
+    "a": "FACE",
+    "b": "BANG_CENTER",
+    "contact_px": 160
+   },
+   {
+    "a": "HAIR_TIP_RIGHT",
+    "b": "HAIR_STAR_RIGHT",
+    "contact_px": 159
+   },
+   {
+    "a": "HAIR_CROWN",
+    "b": "BANG_LEFT",
+    "contact_px": 157
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "TIARA",
+    "contact_px": 156
+   },
+   {
+    "a": "TORSO_UPPER",
+    "b": "HAIR_SIDE_LEFT",
+    "contact_px": 153
+   },
+   {
+    "a": "HAIR_SIDE_RIGHT",
+    "b": "HAIR_CHAIN_RIGHT",
+    "contact_px": 149
+   },
+   {
+    "a": "HAIR_SIDE_RIGHT",
+    "b": "BANG_RIGHT",
+    "contact_px": 147
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "TRAIN_RIGHT",
+    "contact_px": 143
+   },
+   {
+    "a": "SKIRT_FRONT_RIGHT",
+    "b": "ARM_RIGHT",
+    "contact_px": 140
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "TRAIN_LEFT",
+    "contact_px": 139
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "SKIRT_BACK_RIGHT",
+    "contact_px": 139
+   },
+   {
+    "a": "SKIRT_BACK_RIGHT",
+    "b": "TRAIN_GEM_RIGHT",
+    "contact_px": 134
+   },
+   {
+    "a": "HAIR_CROWN",
+    "b": "BANG_RIGHT",
+    "contact_px": 130
+   },
+   {
+    "a": "BODICE",
+    "b": "WAIST_CHAIN",
+    "contact_px": 128
+   },
+   {
+    "a": "HAIR_SIDE_LEFT",
+    "b": "BANG_LEFT",
+    "contact_px": 126
+   },
+   {
+    "a": "OVERSKIRT_RIGHT",
+    "b": "LEG_RIGHT",
+    "contact_px": 122
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "SKIRT_BACK_LEFT",
+    "contact_px": 121
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "TIARA",
+    "contact_px": 117
+   },
+   {
+    "a": "NECK",
+    "b": "FACE",
+    "contact_px": 110
+   },
+   {
+    "a": "OVERSKIRT_LEFT",
+    "b": "LEG_LEFT",
+    "contact_px": 109
+   },
+   {
+    "a": "BODICE",
+    "b": "SLEEVE_RIGHT",
+    "contact_px": 108
+   },
+   {
+    "a": "HAIR_CROWN",
+    "b": "HAIR_CLIP_RIGHT",
+    "contact_px": 106
+   },
+   {
+    "a": "HAIR_CROWN",
+    "b": "TIARA",
+    "contact_px": 106
+   },
+   {
+    "a": "SKIRT_BACK_LEFT",
+    "b": "TRAIN_GEM_LEFT",
+    "contact_px": 105
+   },
+   {
+    "a": "COLLAR",
+    "b": "NECK_RIBBON",
+    "contact_px": 103
+   },
+   {
+    "a": "BODICE",
+    "b": "SLEEVE_LEFT",
+    "contact_px": 102
+   },
+   {
+    "a": "TORSO_UPPER",
+    "b": "NECK_PENDANT",
+    "contact_px": 102
+   },
+   {
+    "a": "SKIRT_BACK_RIGHT",
+    "b": "OVERSKIRT_RIGHT",
+    "contact_px": 97
+   },
+   {
+    "a": "TORSO_UPPER",
+    "b": "HAIR_SIDE_RIGHT",
+    "contact_px": 97
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "TORSO_UPPER",
+    "contact_px": 95
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "BRACELET_RIGHT",
+    "contact_px": 93
+   },
+   {
+    "a": "HAIR_TRESS_RIGHT",
+    "b": "HAIR_CHAIN_RIGHT",
+    "contact_px": 92
+   },
+   {
+    "a": "SKIRT_FRONT_CENTER",
+    "b": "LEG_LEFT",
+    "contact_px": 92
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "HAIR_FLOWER_MAIN",
+    "contact_px": 91
+   },
+   {
+    "a": "ARM_LEFT",
+    "b": "BRACELET_LEFT",
+    "contact_px": 89
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "TORSO_UPPER",
+    "contact_px": 87
+   },
+   {
+    "a": "LEG_RIGHT",
+    "b": "SHOE_RIGHT",
+    "contact_px": 86
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "BODICE",
+    "contact_px": 86
+   },
+   {
+    "a": "HAIR_TRESS_LEFT",
+    "b": "HAIR_CHAIN_LEFT",
+    "contact_px": 83
+   },
+   {
+    "a": "HAIR_SIDE_LEFT",
+    "b": "EARRING_LEFT",
+    "contact_px": 83
+   },
+   {
+    "a": "WHALE_TAIL_ORNAMENT",
+    "b": "HAIR_FLOWER_MAIN",
+    "contact_px": 79
+   },
+   {
+    "a": "SKIRT_FRONT_CENTER",
+    "b": "LEG_RIGHT",
+    "contact_px": 79
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "BODICE",
+    "contact_px": 78
+   },
+   {
+    "a": "BANG_RIGHT",
+    "b": "BANG_CENTER",
+    "contact_px": 73
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "HAIR_CLIP_RIGHT",
+    "contact_px": 73
+   },
+   {
+    "a": "HAIR_CROWN",
+    "b": "WHALE_TAIL_ORNAMENT",
+    "contact_px": 70
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "HAIR_CROWN",
+    "contact_px": 70
+   },
+   {
+    "a": "ARM_RIGHT",
+    "b": "BRACELET_RIGHT",
+    "contact_px": 69
+   },
+   {
+    "a": "SLEEVE_RIGHT",
+    "b": "ARM_RIGHT",
+    "contact_px": 68
+   },
+   {
+    "a": "FACE",
+    "b": "NOSE",
+    "contact_px": 68
+   },
+   {
+    "a": "SKIRT_BACK_LEFT",
+    "b": "SHOE_LEFT",
+    "contact_px": 67
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "BRACELET_LEFT",
+    "contact_px": 67
+   },
+   {
+    "a": "HAIR_CROWN",
+    "b": "HAIR_FLOWER_MAIN",
+    "contact_px": 67
+   },
+   {
+    "a": "FACE",
+    "b": "MOUTH_CLOSED_NEUTRAL",
+    "contact_px": 66
+   },
+   {
+    "a": "LEG_LEFT",
+    "b": "SHOE_LEFT",
+    "contact_px": 66
+   },
+   {
+    "a": "FACE",
+    "b": "BANG_LEFT",
+    "contact_px": 65
+   },
+   {
+    "a": "SLEEVE_LEFT",
+    "b": "ARM_LEFT",
+    "contact_px": 65
+   },
+   {
+    "a": "HAIR_SIDE_RIGHT",
+    "b": "HAIR_TRESS_RIGHT",
+    "contact_px": 64
+   },
+   {
+    "a": "OVERSKIRT_LEFT",
+    "b": "SKIRT_FRONT_CENTER",
+    "contact_px": 64
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "EARRING_RIGHT",
+    "contact_px": 63
+   },
+   {
+    "a": "EYEBROW_LEFT",
+    "b": "BANG_LEFT",
+    "contact_px": 63
+   },
+   {
+    "a": "SKIRT_FRONT_CENTER",
+    "b": "BODICE",
+    "contact_px": 62
+   },
+   {
+    "a": "HAND_LEFT",
+    "b": "BRACELET_LEFT",
+    "contact_px": 60
+   },
+   {
+    "a": "BANG_CENTER",
+    "b": "BANG_LEFT",
+    "contact_px": 60
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "HAIR_CROWN",
+    "contact_px": 60
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "BANG_LEFT",
+    "contact_px": 59
+   },
+   {
+    "a": "FACE",
+    "b": "UPPER_EYELID_RIGHT",
+    "contact_px": 59
+   },
+   {
+    "a": "HAND_RIGHT",
+    "b": "BRACELET_RIGHT",
+    "contact_px": 58
+   },
+   {
+    "a": "EYEBROW_RIGHT",
+    "b": "BANG_RIGHT",
+    "contact_px": 58
+   },
+   {
+    "a": "THIGH_GARTER_LEFT",
+    "b": "THIGH_JEWELS_LEFT",
+    "contact_px": 58
+   },
+   {
+    "a": "ARM_LEFT",
+    "b": "WAIST_RIBBON_LEFT",
+    "contact_px": 56
+   },
+   {
+    "a": "OVERSKIRT_LEFT",
+    "b": "THIGH_GARTER_LEFT",
+    "contact_px": 56
+   },
+   {
+    "a": "ARM_RIGHT",
+    "b": "WAIST_RIBBON_RIGHT",
+    "contact_px": 55
+   },
+   {
+    "a": "HAIR_SIDE_RIGHT",
+    "b": "EARRING_RIGHT",
+    "contact_px": 55
+   },
+   {
+    "a": "SKIRT_BACK_RIGHT",
+    "b": "SHOE_LEFT",
+    "contact_px": 55
+   },
+   {
+    "a": "EYE_WHITE_LEFT",
+    "b": "IRIS_LEFT",
+    "contact_px": 53
+   },
+   {
+    "a": "TIARA",
+    "b": "WHALE_TAIL_ORNAMENT",
+    "contact_px": 51
+   },
+   {
+    "a": "FACE",
+    "b": "EAR_LEFT",
+    "contact_px": 50
+   },
+   {
+    "a": "EYE_WHITE_RIGHT",
+    "b": "IRIS_RIGHT",
+    "contact_px": 50
+   },
+   {
+    "a": "FACE",
+    "b": "LOWER_EYELID_RIGHT",
+    "contact_px": 48
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "NECK",
+    "contact_px": 48
+   },
+   {
+    "a": "FACE",
+    "b": "BANG_RIGHT",
+    "contact_px": 47
+   },
+   {
+    "a": "UPPER_EYELID_LEFT",
+    "b": "BANG_LEFT",
+    "contact_px": 47
+   },
+   {
+    "a": "NECK_RIBBON",
+    "b": "NECK_PENDANT",
+    "contact_px": 46
+   },
+   {
+    "a": "EAR_LEFT",
+    "b": "HAIR_SIDE_LEFT",
+    "contact_px": 46
+   },
+   {
+    "a": "HAIR_CROWN",
+    "b": "BANG_CENTER",
+    "contact_px": 45
+   },
+   {
+    "a": "FACE",
+    "b": "LOWER_EYELID_LEFT",
+    "contact_px": 44
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "NECK",
+    "contact_px": 44
+   },
+   {
+    "a": "FACE",
+    "b": "EAR_RIGHT",
+    "contact_px": 43
+   },
+   {
+    "a": "UPPER_EYELID_RIGHT",
+    "b": "BANG_RIGHT",
+    "contact_px": 43
+   },
+   {
+    "a": "SKIRT_FRONT_RIGHT",
+    "b": "WAIST_CHAIN",
+    "contact_px": 43
+   },
+   {
+    "a": "FACE",
+    "b": "EYEBROW_LEFT",
+    "contact_px": 43
+   },
+   {
+    "a": "HAIR_TIP_LEFT",
+    "b": "HAND_LEFT",
+    "contact_px": 39
+   },
+   {
+    "a": "SKIRT_FRONT_LEFT",
+    "b": "BODICE",
+    "contact_px": 39
+   },
+   {
+    "a": "EYE_WHITE_LEFT",
+    "b": "UPPER_EYELID_LEFT",
+    "contact_px": 38
+   },
+   {
+    "a": "HAIR_TIP_RIGHT",
+    "b": "HAND_RIGHT",
+    "contact_px": 37
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "EARRING_LEFT",
+    "contact_px": 36
+   },
+   {
+    "a": "EYE_WHITE_RIGHT",
+    "b": "UPPER_EYELID_RIGHT",
+    "contact_px": 36
+   },
+   {
+    "a": "SLEEVE_LEFT",
+    "b": "TORSO_UPPER",
+    "contact_px": 35
+   },
+   {
+    "a": "OVERSKIRT_RIGHT",
+    "b": "SKIRT_FRONT_CENTER",
+    "contact_px": 34
+   },
+   {
+    "a": "SKIRT_FRONT_RIGHT",
+    "b": "BODICE",
+    "contact_px": 33
+   },
+   {
+    "a": "EYE_WHITE_LEFT",
+    "b": "LOWER_EYELID_LEFT",
+    "contact_px": 32
+   },
+   {
+    "a": "UPPER_EYELID_LEFT",
+    "b": "BANG_CENTER",
+    "contact_px": 32
+   },
+   {
+    "a": "IRIS_LEFT",
+    "b": "PUPIL_LEFT",
+    "contact_px": 31
+   },
+   {
+    "a": "IRIS_RIGHT",
+    "b": "PUPIL_RIGHT",
+    "contact_px": 31
+   },
+   {
+    "a": "FACE",
+    "b": "EYEBROW_RIGHT",
+    "contact_px": 31
+   },
+   {
+    "a": "SLEEVE_RIGHT",
+    "b": "TORSO_UPPER",
+    "contact_px": 31
+   },
+   {
+    "a": "EYE_WHITE_RIGHT",
+    "b": "LOWER_EYELID_RIGHT",
+    "contact_px": 29
+   },
+   {
+    "a": "EAR_RIGHT",
+    "b": "HAIR_SIDE_RIGHT",
+    "contact_px": 29
+   },
+   {
+    "a": "FACE",
+    "b": "HAIR_SIDE_RIGHT",
+    "contact_px": 28
+   },
+   {
+    "a": "FACE",
+    "b": "HAIR_SIDE_LEFT",
+    "contact_px": 26
+   },
+   {
+    "a": "CHEST_RIBBON_TAIL_RIGHT",
+    "b": "CHEST_CHAIN",
+    "contact_px": 26
+   },
+   {
+    "a": "FACE",
+    "b": "UPPER_EYELID_LEFT",
+    "contact_px": 24
+   },
+   {
+    "a": "SKIRT_FRONT_LEFT",
+    "b": "WAIST_CHAIN",
+    "contact_px": 21
+   },
+   {
+    "a": "HAIR_SIDE_RIGHT",
+    "b": "HAIR_CROWN",
+    "contact_px": 21
+   },
+   {
+    "a": "CHEST_RIBBON_RIGHT",
+    "b": "CHEST_GEM",
+    "contact_px": 20
+   },
+   {
+    "a": "IRIS_RIGHT",
+    "b": "UPPER_EYELID_RIGHT",
+    "contact_px": 20
+   },
+   {
+    "a": "BODICE",
+    "b": "CHEST_GEM",
+    "contact_px": 19
+   },
+   {
+    "a": "IRIS_RIGHT",
+    "b": "LOWER_EYELID_RIGHT",
+    "contact_px": 18
+   },
+   {
+    "a": "TORSO_UPPER",
+    "b": "COLLAR",
+    "contact_px": 18
+   },
+   {
+    "a": "IRIS_LEFT",
+    "b": "UPPER_EYELID_LEFT",
+    "contact_px": 18
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "FACE",
+    "contact_px": 17
+   },
+   {
+    "a": "FACE",
+    "b": "EYE_WHITE_RIGHT",
+    "contact_px": 16
+   },
+   {
+    "a": "CHEST_RIBBON_LEFT",
+    "b": "CHEST_GEM",
+    "contact_px": 16
+   },
+   {
+    "a": "EYE_WHITE_LEFT",
+    "b": "BANG_LEFT",
+    "contact_px": 16
+   },
+   {
+    "a": "SKIRT_BACK_RIGHT",
+    "b": "SKIRT_BACK_LEFT",
+    "contact_px": 16
+   },
+   {
+    "a": "IRIS_LEFT",
+    "b": "LOWER_EYELID_LEFT",
+    "contact_px": 16
+   },
+   {
+    "a": "EYE_WHITE_LEFT",
+    "b": "BANG_CENTER",
+    "contact_px": 15
+   },
+   {
+    "a": "LOWER_EYELID_RIGHT",
+    "b": "BANG_RIGHT",
+    "contact_px": 15
+   },
+   {
+    "a": "EYE_WHITE_RIGHT",
+    "b": "BANG_RIGHT",
+    "contact_px": 15
+   },
+   {
+    "a": "HAIR_FLOWERS_SMALL",
+    "b": "HAIR_CHAIN_LEFT",
+    "contact_px": 15
+   },
+   {
+    "a": "LEG_LEFT",
+    "b": "SHOE_RIGHT",
+    "contact_px": 14
+   },
+   {
+    "a": "OVERSKIRT_LEFT",
+    "b": "THIGH_JEWELS_LEFT",
+    "contact_px": 14
+   },
+   {
+    "a": "HAIR_FLOWER_MAIN",
+    "b": "HAIR_FLOWERS_SMALL",
+    "contact_px": 13
+   },
+   {
+    "a": "EYEBROW_RIGHT",
+    "b": "BANG_CENTER",
+    "contact_px": 13
+   },
+   {
+    "a": "CHEST_GEM",
+    "b": "CHEST_CHAIN",
+    "contact_px": 13
+   },
+   {
+    "a": "NECK",
+    "b": "TORSO_UPPER",
+    "contact_px": 12
+   },
+   {
+    "a": "EAR_RIGHT",
+    "b": "BANG_RIGHT",
+    "contact_px": 12
+   },
+   {
+    "a": "IRIS_RIGHT",
+    "b": "HIGHLIGHT_RIGHT",
+    "contact_px": 11
+   },
+   {
+    "a": "PUPIL_LEFT",
+    "b": "HIGHLIGHT_LEFT",
+    "contact_px": 11
+   },
+   {
+    "a": "PUPIL_RIGHT",
+    "b": "HIGHLIGHT_RIGHT",
+    "contact_px": 11
+   },
+   {
+    "a": "EAR_LEFT",
+    "b": "LOWER_EYELID_LEFT",
+    "contact_px": 11
+   },
+   {
+    "a": "CHEST_RIBBON_TAIL_LEFT",
+    "b": "CHEST_GEM",
+    "contact_px": 10
+   },
+   {
+    "a": "IRIS_LEFT",
+    "b": "HIGHLIGHT_LEFT",
+    "contact_px": 10
+   },
+   {
+    "a": "CHEST_RIBBON_TAIL_RIGHT",
+    "b": "CHEST_GEM",
+    "contact_px": 10
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "FACE",
+    "contact_px": 10
+   },
+   {
+    "a": "HIGHLIGHT_LEFT",
+    "b": "UPPER_EYELID_LEFT",
+    "contact_px": 9
+   },
+   {
+    "a": "HIGHLIGHT_RIGHT",
+    "b": "UPPER_EYELID_RIGHT",
+    "contact_px": 8
+   },
+   {
+    "a": "LOWER_EYELID_LEFT",
+    "b": "BANG_CENTER",
+    "contact_px": 8
+   },
+   {
+    "a": "HAIR_BACK_RIGHT",
+    "b": "HAIR_BACK_LEFT",
+    "contact_px": 7
+   },
+   {
+    "a": "EYEBROW_LEFT",
+    "b": "BANG_CENTER",
+    "contact_px": 6
+   },
+   {
+    "a": "EAR_LEFT",
+    "b": "BANG_LEFT",
+    "contact_px": 6
+   },
+   {
+    "a": "HAIR_SIDE_LEFT",
+    "b": "HAIR_CROWN",
+    "contact_px": 5
+   },
+   {
+    "a": "HAIR_BACK_LEFT",
+    "b": "COLLAR",
+    "contact_px": 5
+   },
+   {
+    "a": "CHEST_RIBBON_TAIL_LEFT",
+    "b": "CHEST_CHAIN",
+    "contact_px": 4
+   },
+   {
+    "a": "FACE",
+    "b": "HAIR_CROWN",
+    "contact_px": 3
+   },
+   {
+    "a": "CHEST_RIBBON_LEFT",
+    "b": "CHEST_RIBBON_TAIL_LEFT",
+    "contact_px": 2
+   },
+   {
+    "a": "BODICE",
+    "b": "HAIR_SIDE_LEFT",
+    "contact_px": 1
+   },
+   {
+    "a": "LOWER_EYELID_LEFT",
+    "b": "BANG_LEFT",
+    "contact_px": 1
+   },
+   {
+    "a": "EAR_LEFT",
+    "b": "EARRING_LEFT",
+    "contact_px": 1
+   }
+  ]
+ },
+ "recomposition_vs_master": {
+  "visible_pixels": 964002,
+  "max_alpha_diff": 0,
+  "max_rgb_diff_visible": 0
+ },
+ "psd": {
+  "canvas": [
+   1024,
+   1536
+  ],
+  "depth": 8,
+  "mode_rgb": true,
+  "icc_embedded": true,
+  "raster_layers": 113,
+  "groups": 14,
+  "layers_with_mask": 0,
+  "opacity_values": [
+   255
+  ],
+  "blend_modes": [
+   "norm"
+  ],
+  "names_unique": true,
+  "names_match_manifest": true,
+  "visibility_matches_manifest": true,
+  "group_order_bottom_to_top": [
+   "00_BACKFILL_ALIGN_FIRST",
+   "01_HAIR_BACK",
+   "02_CLOTHING_BACK",
+   "03_CLOTHING",
+   "04_BODY",
+   "05_ARMS",
+   "06_FACE",
+   "07_EYES",
+   "08_BROWS",
+   "09_MOUTH",
+   "10_HAIR_SIDE",
+   "11_HAIR_FRONT",
+   "12_ACCESSORIES",
+   "13_FACE_COMPONENTS_ALTERNATES"
+  ],
+  "note": "PSD dibuat oleh skrip, bukan Photoshop/Clip Studio Paint (aplikasi yang dijamin Live2D)."
+ },
+ "lr_convention": {
+  "pairs_consistent": 39,
+  "inconsistent": [],
+  "convention": "LEFT = sisi kiri anatomi karakter = sisi KANAN layar"
+ },
+ "face": {
+  "eye_pairs": [
+   {
+    "active": "EYE_WHITE_LEFT",
+    "alt": "ALT_SCLERA_LEFT",
+    "active_wh": [
+     51,
+     20
+    ],
+    "alt_wh": [
+     50,
+     28
+    ],
+    "active_px": 333,
+    "alt_px": 1138,
+    "center_offset": [
+     -1,
+     -1
+    ]
+   },
+   {
+    "active": "IRIS_LEFT",
+    "alt": "ALT_IRIS_FULL_LEFT",
+    "active_wh": [
+     27,
+     21
+    ],
+    "alt_wh": [
+     28,
+     28
+    ],
+    "active_px": 373,
+    "alt_px": 710,
+    "center_offset": [
+     0,
+     -1
+    ]
+   },
+   {
+    "active": "PUPIL_LEFT",
+    "alt": "ALT_PUPIL_FULL_LEFT",
+    "active_wh": [
+     9,
+     12
+    ],
+    "alt_wh": [
+     8,
+     17
+    ],
+    "active_px": 64,
+    "alt_px": 128,
+    "center_offset": [
+     0,
+     -2
+    ]
+   },
+   {
+    "active": "HIGHLIGHT_LEFT",
+    "alt": "ALT_GLINT_LEFT",
+    "active_wh": [
+     8,
+     7
+    ],
+    "alt_wh": [
+     14,
+     12
+    ],
+    "active_px": 56,
+    "alt_px": 98,
+    "center_offset": [
+     0,
+     2
+    ]
+   },
+   {
+    "active": "EYEBROW_LEFT",
+    "alt": "ALT_EYEBROW_FULL_LEFT",
+    "active_wh": [
+     41,
+     13
+    ],
+    "alt_wh": [
+     40,
+     12
+    ],
+    "active_px": 179,
+    "alt_px": 226,
+    "center_offset": [
+     0,
+     0
+    ]
+   },
+   {
+    "active": "UPPER_EYELID_LEFT",
+    "alt": "ALT_LASH_UPPER_LEFT",
+    "active_wh": [
+     59,
+     16
+    ],
+    "alt_wh": [
+     52,
+     15
+    ],
+    "active_px": 396,
+    "alt_px": 344,
+    "center_offset": [
+     -1,
+     -1
+    ]
+   },
+   {
+    "active": "LOWER_EYELID_LEFT",
+    "alt": "ALT_LASH_LOWER_LEFT",
+    "active_wh": [
+     44,
+     8
+    ],
+    "alt_wh": [
+     43,
+     8
+    ],
+    "active_px": 166,
+    "alt_px": 214,
+    "center_offset": [
+     0,
+     0
+    ]
+   },
+   {
+    "active": "EYE_WHITE_RIGHT",
+    "alt": "ALT_SCLERA_RIGHT",
+    "active_wh": [
+     50,
+     20
+    ],
+    "alt_wh": [
+     50,
+     28
+    ],
+    "active_px": 313,
+    "alt_px": 1091,
+    "center_offset": [
+     -1,
+     -1
+    ]
+   },
+   {
+    "active": "IRIS_RIGHT",
+    "alt": "ALT_IRIS_FULL_RIGHT",
+    "active_wh": [
+     27,
+     21
+    ],
+    "alt_wh": [
+     28,
+     28
+    ],
+    "active_px": 374,
+    "alt_px": 564,
+    "center_offset": [
+     0,
+     -1
+    ]
+   },
+   {
+    "active": "PUPIL_RIGHT",
+    "alt": "ALT_PUPIL_FULL_RIGHT",
+    "active_wh": [
+     9,
+     12
+    ],
+    "alt_wh": [
+     8,
+     17
+    ],
+    "active_px": 64,
+    "alt_px": 129,
+    "center_offset": [
+     0,
+     -2
+    ]
+   },
+   {
+    "active": "HIGHLIGHT_RIGHT",
+    "alt": "ALT_GLINT_RIGHT",
+    "active_wh": [
+     8,
+     7
+    ],
+    "alt_wh": [
+     14,
+     12
+    ],
+    "active_px": 56,
+    "alt_px": 103,
+    "center_offset": [
+     0,
+     2
+    ]
+   },
+   {
+    "active": "EYEBROW_RIGHT",
+    "alt": "ALT_EYEBROW_FULL_RIGHT",
+    "active_wh": [
+     37,
+     10
+    ],
+    "alt_wh": [
+     37,
+     9
+    ],
+    "active_px": 162,
+    "alt_px": 171,
+    "center_offset": [
+     0,
+     -1
+    ]
+   },
+   {
+    "active": "UPPER_EYELID_RIGHT",
+    "alt": "ALT_LASH_UPPER_RIGHT",
+    "active_wh": [
+     58,
+     16
+    ],
+    "alt_wh": [
+     52,
+     15
+    ],
+    "active_px": 412,
+    "alt_px": 414,
+    "center_offset": [
+     -1,
+     -1
+    ]
+   },
+   {
+    "active": "LOWER_EYELID_RIGHT",
+    "alt": "ALT_LASH_LOWER_RIGHT",
+    "active_wh": [
+     43,
+     8
+    ],
+    "alt_wh": [
+     42,
+     8
+    ],
+    "active_px": 160,
+    "alt_px": 172,
+    "center_offset": [
+     1,
+     0
+    ]
+   }
+  ],
+  "mouth_wh": {
+   "MOUTH_CLOSED_NEUTRAL": [
+    21,
+    12
+   ],
+   "ALT_MOUTH_CLOSED_ALT": [
+    22,
+    8
+   ],
+   "ALT_MOUTH_UPPER": [
+    22,
+    5
+   ],
+   "ALT_MOUTH_LOWER": [
+    17,
+    4
+   ],
+   "ALT_MOUTH_INSIDE": [
+    26,
+    16
+   ],
+   "ALT_TEETH": [
+    20,
+    5
+   ],
+   "ALT_TONGUE": [
+    15,
+    7
+   ]
+  },
+  "head_wh": {
+   "FACE": [
+    110,
+    145
+   ],
+   "BF_FACE_COMPLETE": [
+    169,
+    212
+   ],
+   "NOSE": [
+    15,
+    19
+   ],
+   "NECK": [
+    84,
+    42
+   ]
+  }
+ },
+ "highres_png_dims": {
+  "BLUSH_LEFT.png": [
+   279,
+   189
+  ],
+  "BLUSH_RIGHT.png": [
+   277,
+   193
+  ],
+  "EYEBROW_FULL_LEFT.png": [
+   294,
+   70
+  ],
+  "EYEBROW_FULL_RIGHT.png": [
+   295,
+   70
+  ],
+  "GLINT_LEFT.png": [
+   135,
+   309
+  ],
+  "GLINT_RIGHT.png": [
+   142,
+   309
+  ],
+  "IRIS_FULL_LEFT.png": [
+   210,
+   196
+  ],
+  "IRIS_FULL_RIGHT.png": [
+   291,
+   196
+  ],
+  "LASH_LOWER_LEFT.png": [
+   165,
+   89
+  ],
+  "LASH_LOWER_RIGHT.png": [
+   243,
+   87
+  ],
+  "LASH_UPPER_LEFT.png": [
+   313,
+   103
+  ],
+  "LASH_UPPER_RIGHT.png": [
+   268,
+   104
+  ],
+  "MOUTH_CLOSED_ALT.png": [
+   178,
+   13
+  ],
+  "MOUTH_INSIDE.png": [
+   180,
+   74
+  ],
+  "MOUTH_LOWER.png": [
+   100,
+   27
+  ],
+  "MOUTH_UPPER.png": [
+   196,
+   32
+  ],
+  "PUPIL_FULL_LEFT.png": [
+   42,
+   103
+  ],
+  "PUPIL_FULL_RIGHT.png": [
+   42,
+   103
+  ],
+  "SCLERA_LEFT.png": [
+   235,
+   140
+  ],
+  "SCLERA_RIGHT.png": [
+   245,
+   139
+  ],
+  "TEETH.png": [
+   173,
+   43
+  ],
+  "TONGUE.png": [
+   114,
+   75
+  ]
+ },
+ "json": {
+  "parsed_ok": 20,
+  "failed": []
+ },
+ "spec_crossrefs": {
+  "parameter_count": 35,
+  "physics": {
+   "settings": 12,
+   "meta_counts_match": true,
+   "input_ids": [
+    "ParamAngleX",
+    "ParamAngleZ",
+    "ParamBodyAngleX",
+    "ParamBodyAngleZ"
+   ],
+   "output_ids": [
+    "ParamChainSway",
+    "ParamEarringLSway",
+    "ParamEarringRSway",
+    "ParamHairBackLSway",
+    "ParamHairBackRSway",
+    "ParamHairFrontSway",
+    "ParamHairSideLSway",
+    "ParamHairSideRSway",
+    "ParamRibbonSway",
+    "ParamSkirtLSway",
+    "ParamSkirtRSway",
+    "ParamWhaleOrnamentSway"
+   ],
+   "unknown_refs": [],
+   "schema_missing": [],
+   "distinct_input_signatures": 2,
+   "distinct_vertex_profiles": 3,
+   "uses_ParamAngleY_input": false,
+   "output_scales": [
+    0.05,
+    0.08
+   ]
+  },
+  "expressions": {
+   "files": 9,
+   "unknown_refs": {},
+   "values": {
+    "ANGRY": {
+     "ParamMouthForm": -0.3,
+     "ParamEyeLSmile": 0,
+     "ParamEyeRSmile": 0,
+     "ParamBrowLForm": 1,
+     "ParamBrowRForm": 1,
+     "ParamBrowLY": -0.2,
+     "ParamBrowRY": -0.2,
+     "ParamBrowLAngle": 0,
+     "ParamBrowRAngle": 0,
+     "ParamCheek": 0
+    },
+    "BLINK": {
+     "ParamMouthForm": 0,
+     "ParamEyeLSmile": 0,
+     "ParamEyeRSmile": 0,
+     "ParamBrowLForm": 0,
+     "ParamBrowRForm": 0,
+     "ParamBrowLY": 0,
+     "ParamBrowRY": 0,
+     "ParamBrowLAngle": 0,
+     "ParamBrowRAngle": 0,
+     "ParamCheek": 0,
+     "ParamEyeLOpen": 0,
+     "ParamEyeROpen": 0
+    },
+    "DEFAULT": {
+     "ParamMouthForm": 0,
+     "ParamEyeLSmile": 0,
+     "ParamEyeRSmile": 0,
+     "ParamBrowLForm": 0,
+     "ParamBrowRForm": 0,
+     "ParamBrowLY": 0,
+     "ParamBrowRY": 0,
+     "ParamBrowLAngle": 0,
+     "ParamBrowRAngle": 0,
+     "ParamCheek": 0
+    },
+    "HAPPY": {
+     "ParamMouthForm": 0.85,
+     "ParamEyeLSmile": 1,
+     "ParamEyeRSmile": 1,
+     "ParamBrowLForm": 0,
+     "ParamBrowRForm": 0,
+     "ParamBrowLY": 0.15,
+     "ParamBrowRY": 0.15,
+     "ParamBrowLAngle": 0,
+     "ParamBrowRAngle": 0,
+     "ParamCheek": 0
+    },
+    "SAD": {
+     "ParamMouthForm": -0.6,
+     "ParamEyeLSmile": 0,
+     "ParamEyeRSmile": 0,
+     "ParamBrowLForm": -1,
+     "ParamBrowRForm": -1,
+     "ParamBrowLY": 0,
+     "ParamBrowRY": 0,
+     "ParamBrowLAngle": 0,
+     "ParamBrowRAngle": 0,
+     "ParamCheek": 0
+    },
+    "SHY": {
+     "ParamMouthForm": 0.15,
+     "ParamEyeLSmile": 0,
+     "ParamEyeRSmile": 0,
+     "ParamBrowLForm": 0,
+     "ParamBrowRForm": 0,
+     "ParamBrowLY": 0,
+     "ParamBrowRY": 0,
+     "ParamBrowLAngle": 0,
+     "ParamBrowRAngle": 0,
+     "ParamCheek": 0.75
+    },
+    "SMILE": {
+     "ParamMouthForm": 0.45,
+     "ParamEyeLSmile": 0,
+     "ParamEyeRSmile": 0,
+     "ParamBrowLForm": 0,
+     "ParamBrowRForm": 0,
+     "ParamBrowLY": 0,
+     "ParamBrowRY": 0,
+     "ParamBrowLAngle": 0,
+     "ParamBrowRAngle": 0,
+     "ParamCheek": 0
+    },
+    "SURPRISED": {
+     "ParamMouthForm": -0.2,
+     "ParamEyeLSmile": 0,
+     "ParamEyeRSmile": 0,
+     "ParamBrowLForm": 0,
+     "ParamBrowRForm": 0,
+     "ParamBrowLY": 0.8,
+     "ParamBrowRY": 0.8,
+     "ParamBrowLAngle": 0,
+     "ParamBrowRAngle": 0,
+     "ParamCheek": 0,
+     "ParamMouthOpenY": 0.55
+    },
+    "WINK": {
+     "ParamMouthForm": 0.25,
+     "ParamEyeLSmile": 0.6,
+     "ParamEyeRSmile": 0,
+     "ParamBrowLForm": 0,
+     "ParamBrowRForm": 0,
+     "ParamBrowLY": 0,
+     "ParamBrowRY": 0,
+     "ParamBrowLAngle": 0,
+     "ParamBrowRAngle": 0,
+     "ParamCheek": 0,
+     "ParamEyeLOpen": 0
+    }
+   }
+  },
+  "motions": {
+   "unknown_refs": {}
+  },
+  "deformers": {
+   "count": 14,
+   "unknown_param_refs": {},
+   "params_without_any_deformer_driver": [
+    "ParamBrowLAngle",
+    "ParamBrowLForm",
+    "ParamBrowLY",
+    "ParamBrowRAngle",
+    "ParamBrowRForm",
+    "ParamBrowRY",
+    "ParamCheek",
+    "ParamHairSideLSway",
+    "ParamHairSideRSway"
+   ],
+   "layers_named_explicitly_in_members": 36,
+   "layers_not_named_explicitly": [
+    "ALT_BLUSH_LEFT",
+    "ALT_BLUSH_RIGHT",
+    "ALT_EYEBROW_FULL_LEFT",
+    "ALT_EYEBROW_FULL_RIGHT",
+    "ALT_GLINT_LEFT",
+    "ALT_GLINT_RIGHT",
+    "ALT_IRIS_FULL_LEFT",
+    "ALT_IRIS_FULL_RIGHT",
+    "ALT_LASH_LOWER_LEFT",
+    "ALT_LASH_LOWER_RIGHT",
+    "ALT_LASH_UPPER_LEFT",
+    "ALT_LASH_UPPER_RIGHT",
+    "ALT_MOUTH_CLOSED_ALT",
+    "ALT_PUPIL_FULL_LEFT",
+    "ALT_PUPIL_FULL_RIGHT",
+    "ALT_SCLERA_LEFT",
+    "ALT_SCLERA_RIGHT",
+    "ARM_LEFT",
+    "ARM_RIGHT",
+    "BF_CLOTHING_BODY",
+    "BF_FACE_COMPLETE",
+    "BF_HAIR_BACK_COMPLETE",
+    "BF_LOWER_SKIRT",
+    "BF_NECK_AND_TORSO",
+    "BODICE",
+    "BRACELET_LEFT",
+    "BRACELET_RIGHT",
+    "CHEST_CHAIN",
+    "CHEST_GEM",
+    "CHEST_RIBBON_LEFT",
+    "CHEST_RIBBON_RIGHT",
+    "CHEST_RIBBON_TAIL_LEFT",
+    "CHEST_RIBBON_TAIL_RIGHT",
+    "COLLAR",
+    "EARRING_LEFT",
+    "EARRING_RIGHT",
+    "EAR_LEFT",
+    "EAR_RIGHT",
+    "EYEBROW_LEFT",
+    "EYEBROW_RIGHT",
+    "FACE",
+    "FOREHEAD_JEWEL",
+    "HAIR_CHAIN_LEFT",
+    "HAIR_CHAIN_RIGHT",
+    "HAIR_CLIP_RIGHT",
+    "HAIR_CROWN",
+    "HAIR_FLOWERS_SMALL",
+    "HAIR_FLOWER_MAIN",
+    "HAIR_SIDE_LEFT",
+    "HAIR_SIDE_RIGHT",
+    "HAIR_STAR_LEFT",
+    "HAIR_STAR_RIGHT",
+    "HAIR_TRESS_LEFT",
+    "HAIR_TRESS_RIGHT",
+    "HAND_LEFT",
+    "HAND_RIGHT",
+    "LEG_LEFT",
+    "LEG_RIGHT",
+    "MOUTH_CLOSED_NEUTRAL",
+    "NECK",
+    "NECK_PENDANT",
+    "NECK_RIBBON",
+    "NOSE",
+    "SHOE_LEFT",
+    "SHOE_RIGHT",
+    "SLEEVE_FLOWER_LEFT",
+    "SLEEVE_FLOWER_RIGHT",
+    "SLEEVE_LEFT",
+    "SLEEVE_RIGHT",
+    "THIGH_GARTER_LEFT",
+    "THIGH_JEWELS_LEFT",
+    "TIARA",
+    "TORSO_UPPER",
+    "WAIST_CHAIN",
+    "WAIST_RIBBON_LEFT",
+    "WAIST_RIBBON_RIGHT",
+    "WHALE_TAIL_ORNAMENT"
+   ],
+   "deformers_with_null_pivot": [
+    "D_ACCESSORIES",
+    "D_HEAD_ACCESSORIES"
+   ]
+  },
+  "params_without_physics_output": [],
+  "brow_polarity_note_in_spec": {
+   "ParamBrowLAngle": "Alis L Angle; Form: -1 sedih, 0 netral, +1 tegas/marah.",
+   "ParamBrowLForm": "Alis L Form; Form: -1 sedih, 0 netral, +1 tegas/marah.",
+   "ParamBrowRAngle": "Alis R Angle; Form: -1 sedih, 0 netral, +1 tegas/marah.",
+   "ParamBrowRForm": "Alis R Form; Form: -1 sedih, 0 netral, +1 tegas/marah."
+  },
+  "expression_brow_form": {
+   "ANGRY": {
+    "ParamBrowLForm": 1,
+    "ParamBrowLAngle": 0
+   },
+   "SAD": {
+    "ParamBrowLForm": -1,
+    "ParamBrowLAngle": 0
+   }
+  }
+ },
+ "runtime_artifacts": {
+  "*.cmo3": [],
+  "*.moc3": [],
+  "*.model3.json": [],
+  "*.cdi3.json": [],
+  "*.vtube.json": [],
+  "physics_template_only": [
+   "04_Rigging_Spec/Aoi_Cetara_TEMPLATE.physics3.json"
+  ]
+ },
+ "layer_metrics": {
+  "BF_FACE_COMPLETE": {
+   "empty": false,
+   "bbox": [
+    428,
+    60,
+    597,
+    272
+   ],
+   "w": 169,
+   "h": 212,
+   "alpha_px": 26431,
+   "semi_px": 26431,
+   "cx": 512,
+   "cy": 166,
+   "manifest_bbox": [
+    428,
+    60,
+    597,
+    272
+   ],
+   "bbox_matches_manifest": true
+  },
+  "BF_NECK_AND_TORSO": {
+   "empty": false,
+   "bbox": [
+    379,
+    260,
+    650,
+    456
+   ],
+   "w": 271,
+   "h": 196,
+   "alpha_px": 38061,
+   "semi_px": 38061,
+   "cx": 514,
+   "cy": 358,
+   "manifest_bbox": [
+    379,
+    260,
+    650,
+    456
+   ],
+   "bbox_matches_manifest": true
+  },
+  "BF_CLOTHING_BODY": {
+   "empty": false,
+   "bbox": [
+    239,
+    371,
+    782,
+    892
+   ],
+   "w": 543,
+   "h": 521,
+   "alpha_px": 164495,
+   "semi_px": 164495,
+   "cx": 510,
+   "cy": 631,
+   "manifest_bbox": [
+    239,
+    371,
+    782,
+    892
+   ],
+   "bbox_matches_manifest": true
+  },
+  "BF_LOWER_SKIRT": {
+   "empty": false,
+   "bbox": [
+    158,
+    736,
+    859,
+    1510
+   ],
+   "w": 701,
+   "h": 774,
+   "alpha_px": 298405,
+   "semi_px": 298405,
+   "cx": 508,
+   "cy": 1123,
+   "manifest_bbox": [
+    158,
+    736,
+    859,
+    1510
+   ],
+   "bbox_matches_manifest": true
+  },
+  "BF_HAIR_BACK_COMPLETE": {
+   "empty": false,
+   "bbox": [
+    48,
+    57,
+    975,
+    978
+   ],
+   "w": 927,
+   "h": 921,
+   "alpha_px": 530555,
+   "semi_px": 530421,
+   "cx": 511,
+   "cy": 517,
+   "manifest_bbox": [
+    48,
+    57,
+    975,
+    978
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_BACK_RIGHT": {
+   "empty": false,
+   "bbox": [
+    0,
+    0,
+    512,
+    1000
+   ],
+   "w": 512,
+   "h": 1000,
+   "alpha_px": 81304,
+   "semi_px": 81304,
+   "cx": 256,
+   "cy": 500,
+   "manifest_bbox": [
+    0,
+    0,
+    512,
+    1000
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_BACK_LEFT": {
+   "empty": false,
+   "bbox": [
+    512,
+    0,
+    984,
+    1000
+   ],
+   "w": 472,
+   "h": 1000,
+   "alpha_px": 89320,
+   "semi_px": 89320,
+   "cx": 748,
+   "cy": 500,
+   "manifest_bbox": [
+    512,
+    0,
+    984,
+    1000
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_TIP_RIGHT": {
+   "empty": false,
+   "bbox": [
+    85,
+    694,
+    222,
+    954
+   ],
+   "w": 137,
+   "h": 260,
+   "alpha_px": 21136,
+   "semi_px": 21136,
+   "cx": 153,
+   "cy": 824,
+   "manifest_bbox": [
+    85,
+    694,
+    222,
+    954
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_TIP_LEFT": {
+   "empty": false,
+   "bbox": [
+    804,
+    693,
+    940,
+    960
+   ],
+   "w": 136,
+   "h": 267,
+   "alpha_px": 21309,
+   "semi_px": 21309,
+   "cx": 872,
+   "cy": 826,
+   "manifest_bbox": [
+    804,
+    693,
+    940,
+    960
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SKIRT_BACK_RIGHT": {
+   "empty": false,
+   "bbox": [
+    0,
+    1000,
+    512,
+    1536
+   ],
+   "w": 512,
+   "h": 536,
+   "alpha_px": 44293,
+   "semi_px": 44293,
+   "cx": 256,
+   "cy": 1268,
+   "manifest_bbox": [
+    0,
+    1000,
+    512,
+    1536
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SKIRT_BACK_LEFT": {
+   "empty": false,
+   "bbox": [
+    512,
+    1000,
+    998,
+    1536
+   ],
+   "w": 486,
+   "h": 536,
+   "alpha_px": 39769,
+   "semi_px": 39769,
+   "cx": 755,
+   "cy": 1268,
+   "manifest_bbox": [
+    512,
+    1000,
+    998,
+    1536
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SKIRT_BACK_CENTER": {
+   "empty": false,
+   "bbox": [
+    351,
+    890,
+    663,
+    1458
+   ],
+   "w": 312,
+   "h": 568,
+   "alpha_px": 59602,
+   "semi_px": 59602,
+   "cx": 507,
+   "cy": 1174,
+   "manifest_bbox": [
+    351,
+    890,
+    663,
+    1458
+   ],
+   "bbox_matches_manifest": true
+  },
+  "TRAIN_RIGHT": {
+   "empty": false,
+   "bbox": [
+    29,
+    877,
+    405,
+    1522
+   ],
+   "w": 376,
+   "h": 645,
+   "alpha_px": 58181,
+   "semi_px": 58181,
+   "cx": 217,
+   "cy": 1199,
+   "manifest_bbox": [
+    29,
+    877,
+    405,
+    1522
+   ],
+   "bbox_matches_manifest": true
+  },
+  "TRAIN_LEFT": {
+   "empty": false,
+   "bbox": [
+    665,
+    882,
+    997,
+    1522
+   ],
+   "w": 332,
+   "h": 640,
+   "alpha_px": 46758,
+   "semi_px": 46758,
+   "cx": 831,
+   "cy": 1202,
+   "manifest_bbox": [
+    665,
+    882,
+    997,
+    1522
+   ],
+   "bbox_matches_manifest": true
+  },
+  "OVERSKIRT_RIGHT": {
+   "empty": false,
+   "bbox": [
+    228,
+    660,
+    443,
+    1491
+   ],
+   "w": 215,
+   "h": 831,
+   "alpha_px": 56418,
+   "semi_px": 56418,
+   "cx": 335,
+   "cy": 1075,
+   "manifest_bbox": [
+    228,
+    660,
+    443,
+    1491
+   ],
+   "bbox_matches_manifest": true
+  },
+  "OVERSKIRT_LEFT": {
+   "empty": false,
+   "bbox": [
+    577,
+    670,
+    802,
+    1501
+   ],
+   "w": 225,
+   "h": 831,
+   "alpha_px": 71417,
+   "semi_px": 71417,
+   "cx": 689,
+   "cy": 1085,
+   "manifest_bbox": [
+    577,
+    670,
+    802,
+    1501
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SKIRT_FRONT_RIGHT": {
+   "empty": false,
+   "bbox": [
+    244,
+    518,
+    451,
+    836
+   ],
+   "w": 207,
+   "h": 318,
+   "alpha_px": 32416,
+   "semi_px": 32416,
+   "cx": 347,
+   "cy": 677,
+   "manifest_bbox": [
+    244,
+    518,
+    451,
+    836
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SKIRT_FRONT_LEFT": {
+   "empty": false,
+   "bbox": [
+    568,
+    519,
+    791,
+    842
+   ],
+   "w": 223,
+   "h": 323,
+   "alpha_px": 31698,
+   "semi_px": 31698,
+   "cx": 679,
+   "cy": 680,
+   "manifest_bbox": [
+    568,
+    519,
+    791,
+    842
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SKIRT_FRONT_CENTER": {
+   "empty": false,
+   "bbox": [
+    426,
+    545,
+    612,
+    790
+   ],
+   "w": 186,
+   "h": 245,
+   "alpha_px": 32726,
+   "semi_px": 32726,
+   "cx": 519,
+   "cy": 667,
+   "manifest_bbox": [
+    426,
+    545,
+    612,
+    790
+   ],
+   "bbox_matches_manifest": true
+  },
+  "BODICE": {
+   "empty": false,
+   "bbox": [
+    419,
+    364,
+    604,
+    586
+   ],
+   "w": 185,
+   "h": 222,
+   "alpha_px": 18437,
+   "semi_px": 18437,
+   "cx": 511,
+   "cy": 475,
+   "manifest_bbox": [
+    419,
+    364,
+    604,
+    586
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SLEEVE_RIGHT": {
+   "empty": false,
+   "bbox": [
+    308,
+    366,
+    435,
+    519
+   ],
+   "w": 127,
+   "h": 153,
+   "alpha_px": 11401,
+   "semi_px": 11401,
+   "cx": 371,
+   "cy": 442,
+   "manifest_bbox": [
+    308,
+    366,
+    435,
+    519
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SLEEVE_LEFT": {
+   "empty": false,
+   "bbox": [
+    590,
+    367,
+    714,
+    518
+   ],
+   "w": 124,
+   "h": 151,
+   "alpha_px": 11255,
+   "semi_px": 11255,
+   "cx": 652,
+   "cy": 442,
+   "manifest_bbox": [
+    590,
+    367,
+    714,
+    518
+   ],
+   "bbox_matches_manifest": true
+  },
+  "LEG_RIGHT": {
+   "empty": false,
+   "bbox": [
+    432,
+    771,
+    511,
+    1269
+   ],
+   "w": 79,
+   "h": 498,
+   "alpha_px": 32414,
+   "semi_px": 32414,
+   "cx": 471,
+   "cy": 1020,
+   "manifest_bbox": [
+    432,
+    771,
+    511,
+    1269
+   ],
+   "bbox_matches_manifest": true
+  },
+  "LEG_LEFT": {
+   "empty": false,
+   "bbox": [
+    505,
+    771,
+    601,
+    1302
+   ],
+   "w": 96,
+   "h": 531,
+   "alpha_px": 32380,
+   "semi_px": 32380,
+   "cx": 553,
+   "cy": 1036,
+   "manifest_bbox": [
+    505,
+    771,
+    601,
+    1302
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SHOE_RIGHT": {
+   "empty": false,
+   "bbox": [
+    437,
+    1245,
+    513,
+    1458
+   ],
+   "w": 76,
+   "h": 213,
+   "alpha_px": 11653,
+   "semi_px": 11653,
+   "cx": 475,
+   "cy": 1351,
+   "manifest_bbox": [
+    437,
+    1245,
+    513,
+    1458
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SHOE_LEFT": {
+   "empty": false,
+   "bbox": [
+    494,
+    1286,
+    595,
+    1525
+   ],
+   "w": 101,
+   "h": 239,
+   "alpha_px": 15713,
+   "semi_px": 15713,
+   "cx": 544,
+   "cy": 1405,
+   "manifest_bbox": [
+    494,
+    1286,
+    595,
+    1525
+   ],
+   "bbox_matches_manifest": true
+  },
+  "NECK": {
+   "empty": false,
+   "bbox": [
+    469,
+    250,
+    553,
+    292
+   ],
+   "w": 84,
+   "h": 42,
+   "alpha_px": 664,
+   "semi_px": 664,
+   "cx": 511,
+   "cy": 271,
+   "manifest_bbox": [
+    469,
+    250,
+    553,
+    292
+   ],
+   "bbox_matches_manifest": true
+  },
+  "TORSO_UPPER": {
+   "empty": false,
+   "bbox": [
+    396,
+    290,
+    630,
+    386
+   ],
+   "w": 234,
+   "h": 96,
+   "alpha_px": 10257,
+   "semi_px": 10257,
+   "cx": 513,
+   "cy": 338,
+   "manifest_bbox": [
+    396,
+    290,
+    630,
+    386
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ARM_RIGHT": {
+   "empty": false,
+   "bbox": [
+    267,
+    492,
+    396,
+    665
+   ],
+   "w": 129,
+   "h": 173,
+   "alpha_px": 7679,
+   "semi_px": 7679,
+   "cx": 331,
+   "cy": 578,
+   "manifest_bbox": [
+    267,
+    492,
+    396,
+    665
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ARM_LEFT": {
+   "empty": false,
+   "bbox": [
+    629,
+    495,
+    759,
+    680
+   ],
+   "w": 130,
+   "h": 185,
+   "alpha_px": 8005,
+   "semi_px": 8005,
+   "cx": 694,
+   "cy": 587,
+   "manifest_bbox": [
+    629,
+    495,
+    759,
+    680
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAND_RIGHT": {
+   "empty": false,
+   "bbox": [
+    187,
+    668,
+    277,
+    785
+   ],
+   "w": 90,
+   "h": 117,
+   "alpha_px": 4453,
+   "semi_px": 4453,
+   "cx": 232,
+   "cy": 726,
+   "manifest_bbox": [
+    187,
+    668,
+    277,
+    785
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAND_LEFT": {
+   "empty": false,
+   "bbox": [
+    746,
+    670,
+    839,
+    785
+   ],
+   "w": 93,
+   "h": 115,
+   "alpha_px": 4589,
+   "semi_px": 4589,
+   "cx": 792,
+   "cy": 727,
+   "manifest_bbox": [
+    746,
+    670,
+    839,
+    785
+   ],
+   "bbox_matches_manifest": true
+  },
+  "FACE": {
+   "empty": false,
+   "bbox": [
+    455,
+    124,
+    565,
+    269
+   ],
+   "w": 110,
+   "h": 145,
+   "alpha_px": 6253,
+   "semi_px": 6253,
+   "cx": 510,
+   "cy": 196,
+   "manifest_bbox": [
+    455,
+    124,
+    565,
+    269
+   ],
+   "bbox_matches_manifest": true
+  },
+  "EAR_RIGHT": {
+   "empty": false,
+   "bbox": [
+    451,
+    201,
+    467,
+    227
+   ],
+   "w": 16,
+   "h": 26,
+   "alpha_px": 209,
+   "semi_px": 209,
+   "cx": 459,
+   "cy": 214,
+   "manifest_bbox": [
+    451,
+    201,
+    467,
+    227
+   ],
+   "bbox_matches_manifest": true
+  },
+  "EAR_LEFT": {
+   "empty": false,
+   "bbox": [
+    555,
+    196,
+    575,
+    233
+   ],
+   "w": 20,
+   "h": 37,
+   "alpha_px": 366,
+   "semi_px": 366,
+   "cx": 565,
+   "cy": 214,
+   "manifest_bbox": [
+    555,
+    196,
+    575,
+    233
+   ],
+   "bbox_matches_manifest": true
+  },
+  "NOSE": {
+   "empty": false,
+   "bbox": [
+    501,
+    195,
+    516,
+    214
+   ],
+   "w": 15,
+   "h": 19,
+   "alpha_px": 285,
+   "semi_px": 285,
+   "cx": 508,
+   "cy": 204,
+   "manifest_bbox": [
+    501,
+    195,
+    516,
+    214
+   ],
+   "bbox_matches_manifest": true
+  },
+  "EYE_WHITE_RIGHT": {
+   "empty": false,
+   "bbox": [
+    447,
+    179,
+    497,
+    199
+   ],
+   "w": 50,
+   "h": 20,
+   "alpha_px": 313,
+   "semi_px": 313,
+   "cx": 472,
+   "cy": 189,
+   "manifest_bbox": [
+    447,
+    179,
+    497,
+    199
+   ],
+   "bbox_matches_manifest": true
+  },
+  "IRIS_RIGHT": {
+   "empty": false,
+   "bbox": [
+    461,
+    178,
+    488,
+    199
+   ],
+   "w": 27,
+   "h": 21,
+   "alpha_px": 374,
+   "semi_px": 374,
+   "cx": 474,
+   "cy": 188,
+   "manifest_bbox": [
+    461,
+    178,
+    488,
+    199
+   ],
+   "bbox_matches_manifest": true
+  },
+  "PUPIL_RIGHT": {
+   "empty": false,
+   "bbox": [
+    470,
+    182,
+    479,
+    194
+   ],
+   "w": 9,
+   "h": 12,
+   "alpha_px": 64,
+   "semi_px": 64,
+   "cx": 474,
+   "cy": 188,
+   "manifest_bbox": [
+    470,
+    182,
+    479,
+    194
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HIGHLIGHT_RIGHT": {
+   "empty": false,
+   "bbox": [
+    470,
+    178,
+    478,
+    185
+   ],
+   "w": 8,
+   "h": 7,
+   "alpha_px": 56,
+   "semi_px": 56,
+   "cx": 474,
+   "cy": 181,
+   "manifest_bbox": [
+    470,
+    178,
+    478,
+    185
+   ],
+   "bbox_matches_manifest": true
+  },
+  "UPPER_EYELID_RIGHT": {
+   "empty": false,
+   "bbox": [
+    443,
+    171,
+    501,
+    187
+   ],
+   "w": 58,
+   "h": 16,
+   "alpha_px": 412,
+   "semi_px": 412,
+   "cx": 472,
+   "cy": 179,
+   "manifest_bbox": [
+    443,
+    171,
+    501,
+    187
+   ],
+   "bbox_matches_manifest": true
+  },
+  "LOWER_EYELID_RIGHT": {
+   "empty": false,
+   "bbox": [
+    449,
+    195,
+    492,
+    203
+   ],
+   "w": 43,
+   "h": 8,
+   "alpha_px": 160,
+   "semi_px": 160,
+   "cx": 470,
+   "cy": 199,
+   "manifest_bbox": [
+    449,
+    195,
+    492,
+    203
+   ],
+   "bbox_matches_manifest": true
+  },
+  "EYE_WHITE_LEFT": {
+   "empty": false,
+   "bbox": [
+    525,
+    179,
+    576,
+    199
+   ],
+   "w": 51,
+   "h": 20,
+   "alpha_px": 333,
+   "semi_px": 333,
+   "cx": 550,
+   "cy": 189,
+   "manifest_bbox": [
+    525,
+    179,
+    576,
+    199
+   ],
+   "bbox_matches_manifest": true
+  },
+  "IRIS_LEFT": {
+   "empty": false,
+   "bbox": [
+    532,
+    178,
+    559,
+    199
+   ],
+   "w": 27,
+   "h": 21,
+   "alpha_px": 373,
+   "semi_px": 373,
+   "cx": 545,
+   "cy": 188,
+   "manifest_bbox": [
+    532,
+    178,
+    559,
+    199
+   ],
+   "bbox_matches_manifest": true
+  },
+  "PUPIL_LEFT": {
+   "empty": false,
+   "bbox": [
+    541,
+    182,
+    550,
+    194
+   ],
+   "w": 9,
+   "h": 12,
+   "alpha_px": 64,
+   "semi_px": 64,
+   "cx": 545,
+   "cy": 188,
+   "manifest_bbox": [
+    541,
+    182,
+    550,
+    194
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HIGHLIGHT_LEFT": {
+   "empty": false,
+   "bbox": [
+    541,
+    178,
+    549,
+    185
+   ],
+   "w": 8,
+   "h": 7,
+   "alpha_px": 56,
+   "semi_px": 56,
+   "cx": 545,
+   "cy": 181,
+   "manifest_bbox": [
+    541,
+    178,
+    549,
+    185
+   ],
+   "bbox_matches_manifest": true
+  },
+  "UPPER_EYELID_LEFT": {
+   "empty": false,
+   "bbox": [
+    521,
+    171,
+    580,
+    187
+   ],
+   "w": 59,
+   "h": 16,
+   "alpha_px": 396,
+   "semi_px": 396,
+   "cx": 550,
+   "cy": 179,
+   "manifest_bbox": [
+    521,
+    171,
+    580,
+    187
+   ],
+   "bbox_matches_manifest": true
+  },
+  "LOWER_EYELID_LEFT": {
+   "empty": false,
+   "bbox": [
+    527,
+    195,
+    571,
+    203
+   ],
+   "w": 44,
+   "h": 8,
+   "alpha_px": 166,
+   "semi_px": 166,
+   "cx": 549,
+   "cy": 199,
+   "manifest_bbox": [
+    527,
+    195,
+    571,
+    203
+   ],
+   "bbox_matches_manifest": true
+  },
+  "EYEBROW_RIGHT": {
+   "empty": false,
+   "bbox": [
+    452,
+    147,
+    489,
+    157
+   ],
+   "w": 37,
+   "h": 10,
+   "alpha_px": 162,
+   "semi_px": 162,
+   "cx": 470,
+   "cy": 152,
+   "manifest_bbox": [
+    452,
+    147,
+    489,
+    157
+   ],
+   "bbox_matches_manifest": true
+  },
+  "EYEBROW_LEFT": {
+   "empty": false,
+   "bbox": [
+    525,
+    147,
+    566,
+    160
+   ],
+   "w": 41,
+   "h": 13,
+   "alpha_px": 179,
+   "semi_px": 179,
+   "cx": 545,
+   "cy": 153,
+   "manifest_bbox": [
+    525,
+    147,
+    566,
+    160
+   ],
+   "bbox_matches_manifest": true
+  },
+  "MOUTH_CLOSED_NEUTRAL": {
+   "empty": false,
+   "bbox": [
+    499,
+    225,
+    520,
+    237
+   ],
+   "w": 21,
+   "h": 12,
+   "alpha_px": 252,
+   "semi_px": 252,
+   "cx": 509,
+   "cy": 231,
+   "manifest_bbox": [
+    499,
+    225,
+    520,
+    237
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_SIDE_RIGHT": {
+   "empty": false,
+   "bbox": [
+    395,
+    134,
+    470,
+    361
+   ],
+   "w": 75,
+   "h": 227,
+   "alpha_px": 5448,
+   "semi_px": 5448,
+   "cx": 432,
+   "cy": 247,
+   "manifest_bbox": [
+    395,
+    134,
+    470,
+    361
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_SIDE_LEFT": {
+   "empty": false,
+   "bbox": [
+    550,
+    135,
+    625,
+    370
+   ],
+   "w": 75,
+   "h": 235,
+   "alpha_px": 5896,
+   "semi_px": 5896,
+   "cx": 587,
+   "cy": 252,
+   "manifest_bbox": [
+    550,
+    135,
+    625,
+    370
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_TRESS_RIGHT": {
+   "empty": false,
+   "bbox": [
+    280,
+    259,
+    415,
+    401
+   ],
+   "w": 135,
+   "h": 142,
+   "alpha_px": 3667,
+   "semi_px": 3667,
+   "cx": 347,
+   "cy": 330,
+   "manifest_bbox": [
+    280,
+    259,
+    415,
+    401
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_TRESS_LEFT": {
+   "empty": false,
+   "bbox": [
+    610,
+    258,
+    746,
+    408
+   ],
+   "w": 136,
+   "h": 150,
+   "alpha_px": 4551,
+   "semi_px": 4551,
+   "cx": 678,
+   "cy": 333,
+   "manifest_bbox": [
+    610,
+    258,
+    746,
+    408
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_CROWN": {
+   "empty": false,
+   "bbox": [
+    398,
+    53,
+    602,
+    142
+   ],
+   "w": 204,
+   "h": 89,
+   "alpha_px": 3583,
+   "semi_px": 3583,
+   "cx": 500,
+   "cy": 97,
+   "manifest_bbox": [
+    398,
+    53,
+    602,
+    142
+   ],
+   "bbox_matches_manifest": true
+  },
+  "BANG_RIGHT": {
+   "empty": false,
+   "bbox": [
+    412,
+    71,
+    488,
+    221
+   ],
+   "w": 76,
+   "h": 150,
+   "alpha_px": 5269,
+   "semi_px": 5269,
+   "cx": 450,
+   "cy": 146,
+   "manifest_bbox": [
+    412,
+    71,
+    488,
+    221
+   ],
+   "bbox_matches_manifest": true
+  },
+  "BANG_CENTER": {
+   "empty": false,
+   "bbox": [
+    478,
+    65,
+    532,
+    199
+   ],
+   "w": 54,
+   "h": 134,
+   "alpha_px": 3572,
+   "semi_px": 3572,
+   "cx": 505,
+   "cy": 132,
+   "manifest_bbox": [
+    478,
+    65,
+    532,
+    199
+   ],
+   "bbox_matches_manifest": true
+  },
+  "BANG_LEFT": {
+   "empty": false,
+   "bbox": [
+    517,
+    68,
+    632,
+    214
+   ],
+   "w": 115,
+   "h": 146,
+   "alpha_px": 6824,
+   "semi_px": 6824,
+   "cx": 574,
+   "cy": 141,
+   "manifest_bbox": [
+    517,
+    68,
+    632,
+    214
+   ],
+   "bbox_matches_manifest": true
+  },
+  "TIARA": {
+   "empty": false,
+   "bbox": [
+    432,
+    4,
+    584,
+    75
+   ],
+   "w": 152,
+   "h": 71,
+   "alpha_px": 4603,
+   "semi_px": 4603,
+   "cx": 508,
+   "cy": 39,
+   "manifest_bbox": [
+    432,
+    4,
+    584,
+    75
+   ],
+   "bbox_matches_manifest": true
+  },
+  "WHALE_TAIL_ORNAMENT": {
+   "empty": false,
+   "bbox": [
+    545,
+    32,
+    691,
+    92
+   ],
+   "w": 146,
+   "h": 60,
+   "alpha_px": 3853,
+   "semi_px": 3853,
+   "cx": 618,
+   "cy": 62,
+   "manifest_bbox": [
+    545,
+    32,
+    691,
+    92
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_FLOWER_MAIN": {
+   "empty": false,
+   "bbox": [
+    582,
+    72,
+    639,
+    129
+   ],
+   "w": 57,
+   "h": 57,
+   "alpha_px": 1928,
+   "semi_px": 1928,
+   "cx": 610,
+   "cy": 100,
+   "manifest_bbox": [
+    582,
+    72,
+    639,
+    129
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_FLOWERS_SMALL": {
+   "empty": false,
+   "bbox": [
+    616,
+    111,
+    666,
+    179
+   ],
+   "w": 50,
+   "h": 68,
+   "alpha_px": 2187,
+   "semi_px": 2187,
+   "cx": 641,
+   "cy": 145,
+   "manifest_bbox": [
+    616,
+    111,
+    666,
+    179
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_CLIP_RIGHT": {
+   "empty": false,
+   "bbox": [
+    394,
+    78,
+    434,
+    132
+   ],
+   "w": 40,
+   "h": 54,
+   "alpha_px": 1143,
+   "semi_px": 1143,
+   "cx": 414,
+   "cy": 105,
+   "manifest_bbox": [
+    394,
+    78,
+    434,
+    132
+   ],
+   "bbox_matches_manifest": true
+  },
+  "FOREHEAD_JEWEL": {
+   "empty": false,
+   "bbox": [
+    489,
+    86,
+    520,
+    144
+   ],
+   "w": 31,
+   "h": 58,
+   "alpha_px": 1081,
+   "semi_px": 1081,
+   "cx": 504,
+   "cy": 115,
+   "manifest_bbox": [
+    489,
+    86,
+    520,
+    144
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_CHAIN_LEFT": {
+   "empty": false,
+   "bbox": [
+    629,
+    174,
+    661,
+    334
+   ],
+   "w": 32,
+   "h": 160,
+   "alpha_px": 1754,
+   "semi_px": 1754,
+   "cx": 645,
+   "cy": 254,
+   "manifest_bbox": [
+    629,
+    174,
+    661,
+    334
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_CHAIN_RIGHT": {
+   "empty": false,
+   "bbox": [
+    366,
+    160,
+    414,
+    318
+   ],
+   "w": 48,
+   "h": 158,
+   "alpha_px": 1583,
+   "semi_px": 1583,
+   "cx": 390,
+   "cy": 239,
+   "manifest_bbox": [
+    366,
+    160,
+    414,
+    318
+   ],
+   "bbox_matches_manifest": true
+  },
+  "EARRING_RIGHT": {
+   "empty": false,
+   "bbox": [
+    447,
+    229,
+    466,
+    269
+   ],
+   "w": 19,
+   "h": 40,
+   "alpha_px": 415,
+   "semi_px": 415,
+   "cx": 456,
+   "cy": 249,
+   "manifest_bbox": [
+    447,
+    229,
+    466,
+    269
+   ],
+   "bbox_matches_manifest": true
+  },
+  "EARRING_LEFT": {
+   "empty": false,
+   "bbox": [
+    555,
+    229,
+    574,
+    270
+   ],
+   "w": 19,
+   "h": 41,
+   "alpha_px": 398,
+   "semi_px": 398,
+   "cx": 564,
+   "cy": 249,
+   "manifest_bbox": [
+    555,
+    229,
+    574,
+    270
+   ],
+   "bbox_matches_manifest": true
+  },
+  "COLLAR": {
+   "empty": false,
+   "bbox": [
+    471,
+    260,
+    552,
+    300
+   ],
+   "w": 81,
+   "h": 40,
+   "alpha_px": 1637,
+   "semi_px": 1637,
+   "cx": 511,
+   "cy": 280,
+   "manifest_bbox": [
+    471,
+    260,
+    552,
+    300
+   ],
+   "bbox_matches_manifest": true
+  },
+  "NECK_RIBBON": {
+   "empty": false,
+   "bbox": [
+    473,
+    285,
+    554,
+    350
+   ],
+   "w": 81,
+   "h": 65,
+   "alpha_px": 3051,
+   "semi_px": 3051,
+   "cx": 513,
+   "cy": 317,
+   "manifest_bbox": [
+    473,
+    285,
+    554,
+    350
+   ],
+   "bbox_matches_manifest": true
+  },
+  "NECK_PENDANT": {
+   "empty": false,
+   "bbox": [
+    502,
+    315,
+    519,
+    365
+   ],
+   "w": 17,
+   "h": 50,
+   "alpha_px": 579,
+   "semi_px": 579,
+   "cx": 510,
+   "cy": 340,
+   "manifest_bbox": [
+    502,
+    315,
+    519,
+    365
+   ],
+   "bbox_matches_manifest": true
+  },
+  "CHEST_RIBBON_RIGHT": {
+   "empty": false,
+   "bbox": [
+    443,
+    383,
+    505,
+    442
+   ],
+   "w": 62,
+   "h": 59,
+   "alpha_px": 2356,
+   "semi_px": 2356,
+   "cx": 474,
+   "cy": 412,
+   "manifest_bbox": [
+    443,
+    383,
+    505,
+    442
+   ],
+   "bbox_matches_manifest": true
+  },
+  "CHEST_RIBBON_LEFT": {
+   "empty": false,
+   "bbox": [
+    516,
+    383,
+    576,
+    443
+   ],
+   "w": 60,
+   "h": 60,
+   "alpha_px": 2317,
+   "semi_px": 2317,
+   "cx": 546,
+   "cy": 413,
+   "manifest_bbox": [
+    516,
+    383,
+    576,
+    443
+   ],
+   "bbox_matches_manifest": true
+  },
+  "CHEST_RIBBON_TAIL_RIGHT": {
+   "empty": false,
+   "bbox": [
+    454,
+    425,
+    505,
+    531
+   ],
+   "w": 51,
+   "h": 106,
+   "alpha_px": 2350,
+   "semi_px": 2350,
+   "cx": 479,
+   "cy": 478,
+   "manifest_bbox": [
+    454,
+    425,
+    505,
+    531
+   ],
+   "bbox_matches_manifest": true
+  },
+  "CHEST_RIBBON_TAIL_LEFT": {
+   "empty": false,
+   "bbox": [
+    514,
+    424,
+    568,
+    533
+   ],
+   "w": 54,
+   "h": 109,
+   "alpha_px": 2716,
+   "semi_px": 2716,
+   "cx": 541,
+   "cy": 478,
+   "manifest_bbox": [
+    514,
+    424,
+    568,
+    533
+   ],
+   "bbox_matches_manifest": true
+  },
+  "CHEST_GEM": {
+   "empty": false,
+   "bbox": [
+    499,
+    408,
+    519,
+    431
+   ],
+   "w": 20,
+   "h": 23,
+   "alpha_px": 449,
+   "semi_px": 449,
+   "cx": 509,
+   "cy": 419,
+   "manifest_bbox": [
+    499,
+    408,
+    519,
+    431
+   ],
+   "bbox_matches_manifest": true
+  },
+  "CHEST_CHAIN": {
+   "empty": false,
+   "bbox": [
+    501,
+    430,
+    519,
+    559
+   ],
+   "w": 18,
+   "h": 129,
+   "alpha_px": 1312,
+   "semi_px": 1312,
+   "cx": 510,
+   "cy": 494,
+   "manifest_bbox": [
+    501,
+    430,
+    519,
+    559
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SLEEVE_FLOWER_RIGHT": {
+   "empty": false,
+   "bbox": [
+    354,
+    398,
+    413,
+    442
+   ],
+   "w": 59,
+   "h": 44,
+   "alpha_px": 1548,
+   "semi_px": 1548,
+   "cx": 383,
+   "cy": 420,
+   "manifest_bbox": [
+    354,
+    398,
+    413,
+    442
+   ],
+   "bbox_matches_manifest": true
+  },
+  "SLEEVE_FLOWER_LEFT": {
+   "empty": false,
+   "bbox": [
+    616,
+    397,
+    673,
+    444
+   ],
+   "w": 57,
+   "h": 47,
+   "alpha_px": 1559,
+   "semi_px": 1559,
+   "cx": 644,
+   "cy": 420,
+   "manifest_bbox": [
+    616,
+    397,
+    673,
+    444
+   ],
+   "bbox_matches_manifest": true
+  },
+  "WAIST_RIBBON_RIGHT": {
+   "empty": false,
+   "bbox": [
+    337,
+    570,
+    422,
+    627
+   ],
+   "w": 85,
+   "h": 57,
+   "alpha_px": 2556,
+   "semi_px": 2556,
+   "cx": 379,
+   "cy": 598,
+   "manifest_bbox": [
+    337,
+    570,
+    422,
+    627
+   ],
+   "bbox_matches_manifest": true
+  },
+  "WAIST_RIBBON_LEFT": {
+   "empty": false,
+   "bbox": [
+    607,
+    570,
+    683,
+    629
+   ],
+   "w": 76,
+   "h": 59,
+   "alpha_px": 2649,
+   "semi_px": 2649,
+   "cx": 645,
+   "cy": 599,
+   "manifest_bbox": [
+    607,
+    570,
+    683,
+    629
+   ],
+   "bbox_matches_manifest": true
+  },
+  "WAIST_CHAIN": {
+   "empty": false,
+   "bbox": [
+    436,
+    545,
+    583,
+    622
+   ],
+   "w": 147,
+   "h": 77,
+   "alpha_px": 1936,
+   "semi_px": 1936,
+   "cx": 509,
+   "cy": 583,
+   "manifest_bbox": [
+    436,
+    545,
+    583,
+    622
+   ],
+   "bbox_matches_manifest": true
+  },
+  "BRACELET_RIGHT": {
+   "empty": false,
+   "bbox": [
+    244,
+    633,
+    298,
+    689
+   ],
+   "w": 54,
+   "h": 56,
+   "alpha_px": 1907,
+   "semi_px": 1907,
+   "cx": 271,
+   "cy": 661,
+   "manifest_bbox": [
+    244,
+    633,
+    298,
+    689
+   ],
+   "bbox_matches_manifest": true
+  },
+  "BRACELET_LEFT": {
+   "empty": false,
+   "bbox": [
+    728,
+    634,
+    782,
+    688
+   ],
+   "w": 54,
+   "h": 54,
+   "alpha_px": 1969,
+   "semi_px": 1969,
+   "cx": 755,
+   "cy": 661,
+   "manifest_bbox": [
+    728,
+    634,
+    782,
+    688
+   ],
+   "bbox_matches_manifest": true
+  },
+  "THIGH_GARTER_LEFT": {
+   "empty": false,
+   "bbox": [
+    508,
+    807,
+    595,
+    863
+   ],
+   "w": 87,
+   "h": 56,
+   "alpha_px": 3578,
+   "semi_px": 3578,
+   "cx": 551,
+   "cy": 835,
+   "manifest_bbox": [
+    508,
+    807,
+    595,
+    863
+   ],
+   "bbox_matches_manifest": true
+  },
+  "THIGH_JEWELS_LEFT": {
+   "empty": false,
+   "bbox": [
+    527,
+    850,
+    598,
+    928
+   ],
+   "w": 71,
+   "h": 78,
+   "alpha_px": 2345,
+   "semi_px": 2345,
+   "cx": 562,
+   "cy": 889,
+   "manifest_bbox": [
+    527,
+    850,
+    598,
+    928
+   ],
+   "bbox_matches_manifest": true
+  },
+  "TRAIN_GEM_RIGHT": {
+   "empty": false,
+   "bbox": [
+    145,
+    1026,
+    170,
+    1075
+   ],
+   "w": 25,
+   "h": 49,
+   "alpha_px": 847,
+   "semi_px": 847,
+   "cx": 157,
+   "cy": 1050,
+   "manifest_bbox": [
+    145,
+    1026,
+    170,
+    1075
+   ],
+   "bbox_matches_manifest": true
+  },
+  "TRAIN_GEM_LEFT": {
+   "empty": false,
+   "bbox": [
+    858,
+    1027,
+    882,
+    1077
+   ],
+   "w": 24,
+   "h": 50,
+   "alpha_px": 800,
+   "semi_px": 800,
+   "cx": 870,
+   "cy": 1052,
+   "manifest_bbox": [
+    858,
+    1027,
+    882,
+    1077
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_STAR_RIGHT": {
+   "empty": false,
+   "bbox": [
+    105,
+    820,
+    129,
+    883
+   ],
+   "w": 24,
+   "h": 63,
+   "alpha_px": 990,
+   "semi_px": 990,
+   "cx": 117,
+   "cy": 851,
+   "manifest_bbox": [
+    105,
+    820,
+    129,
+    883
+   ],
+   "bbox_matches_manifest": true
+  },
+  "HAIR_STAR_LEFT": {
+   "empty": false,
+   "bbox": [
+    900,
+    822,
+    927,
+    890
+   ],
+   "w": 27,
+   "h": 68,
+   "alpha_px": 1076,
+   "semi_px": 1076,
+   "cx": 913,
+   "cy": 856,
+   "manifest_bbox": [
+    900,
+    822,
+    927,
+    890
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_SCLERA_RIGHT": {
+   "empty": false,
+   "bbox": [
+    446,
+    174,
+    496,
+    202
+   ],
+   "w": 50,
+   "h": 28,
+   "alpha_px": 1091,
+   "semi_px": 1004,
+   "cx": 471,
+   "cy": 188,
+   "manifest_bbox": [
+    446,
+    174,
+    496,
+    202
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_SCLERA_LEFT": {
+   "empty": false,
+   "bbox": [
+    524,
+    174,
+    574,
+    202
+   ],
+   "w": 50,
+   "h": 28,
+   "alpha_px": 1138,
+   "semi_px": 1053,
+   "cx": 549,
+   "cy": 188,
+   "manifest_bbox": [
+    524,
+    174,
+    574,
+    202
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_IRIS_FULL_RIGHT": {
+   "empty": false,
+   "bbox": [
+    460,
+    173,
+    488,
+    201
+   ],
+   "w": 28,
+   "h": 28,
+   "alpha_px": 564,
+   "semi_px": 522,
+   "cx": 474,
+   "cy": 187,
+   "manifest_bbox": [
+    460,
+    173,
+    488,
+    201
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_IRIS_FULL_LEFT": {
+   "empty": false,
+   "bbox": [
+    531,
+    173,
+    559,
+    201
+   ],
+   "w": 28,
+   "h": 28,
+   "alpha_px": 710,
+   "semi_px": 663,
+   "cx": 545,
+   "cy": 187,
+   "manifest_bbox": [
+    531,
+    173,
+    559,
+    201
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_PUPIL_FULL_RIGHT": {
+   "empty": false,
+   "bbox": [
+    470,
+    178,
+    478,
+    195
+   ],
+   "w": 8,
+   "h": 17,
+   "alpha_px": 129,
+   "semi_px": 109,
+   "cx": 474,
+   "cy": 186,
+   "manifest_bbox": [
+    470,
+    178,
+    478,
+    195
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_PUPIL_FULL_LEFT": {
+   "empty": false,
+   "bbox": [
+    541,
+    178,
+    549,
+    195
+   ],
+   "w": 8,
+   "h": 17,
+   "alpha_px": 128,
+   "semi_px": 107,
+   "cx": 545,
+   "cy": 186,
+   "manifest_bbox": [
+    541,
+    178,
+    549,
+    195
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_GLINT_RIGHT": {
+   "empty": false,
+   "bbox": [
+    467,
+    177,
+    481,
+    189
+   ],
+   "w": 14,
+   "h": 12,
+   "alpha_px": 103,
+   "semi_px": 99,
+   "cx": 474,
+   "cy": 183,
+   "manifest_bbox": [
+    467,
+    177,
+    481,
+    189
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_GLINT_LEFT": {
+   "empty": false,
+   "bbox": [
+    538,
+    177,
+    552,
+    189
+   ],
+   "w": 14,
+   "h": 12,
+   "alpha_px": 98,
+   "semi_px": 94,
+   "cx": 545,
+   "cy": 183,
+   "manifest_bbox": [
+    538,
+    177,
+    552,
+    189
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_LASH_UPPER_RIGHT": {
+   "empty": false,
+   "bbox": [
+    445,
+    171,
+    497,
+    186
+   ],
+   "w": 52,
+   "h": 15,
+   "alpha_px": 414,
+   "semi_px": 370,
+   "cx": 471,
+   "cy": 178,
+   "manifest_bbox": [
+    445,
+    171,
+    497,
+    186
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_LASH_UPPER_LEFT": {
+   "empty": false,
+   "bbox": [
+    523,
+    171,
+    575,
+    186
+   ],
+   "w": 52,
+   "h": 15,
+   "alpha_px": 344,
+   "semi_px": 308,
+   "cx": 549,
+   "cy": 178,
+   "manifest_bbox": [
+    523,
+    171,
+    575,
+    186
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_LASH_LOWER_RIGHT": {
+   "empty": false,
+   "bbox": [
+    450,
+    195,
+    492,
+    203
+   ],
+   "w": 42,
+   "h": 8,
+   "alpha_px": 172,
+   "semi_px": 165,
+   "cx": 471,
+   "cy": 199,
+   "manifest_bbox": [
+    450,
+    195,
+    492,
+    203
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_LASH_LOWER_LEFT": {
+   "empty": false,
+   "bbox": [
+    528,
+    195,
+    571,
+    203
+   ],
+   "w": 43,
+   "h": 8,
+   "alpha_px": 214,
+   "semi_px": 198,
+   "cx": 549,
+   "cy": 199,
+   "manifest_bbox": [
+    528,
+    195,
+    571,
+    203
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_MOUTH_INSIDE": {
+   "empty": false,
+   "bbox": [
+    496,
+    228,
+    522,
+    244
+   ],
+   "w": 26,
+   "h": 16,
+   "alpha_px": 371,
+   "semi_px": 328,
+   "cx": 509,
+   "cy": 236,
+   "manifest_bbox": [
+    496,
+    228,
+    522,
+    244
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_TEETH": {
+   "empty": false,
+   "bbox": [
+    499,
+    229,
+    519,
+    234
+   ],
+   "w": 20,
+   "h": 5,
+   "alpha_px": 87,
+   "semi_px": 60,
+   "cx": 509,
+   "cy": 231,
+   "manifest_bbox": [
+    499,
+    229,
+    519,
+    234
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_TONGUE": {
+   "empty": false,
+   "bbox": [
+    502,
+    236,
+    517,
+    243
+   ],
+   "w": 15,
+   "h": 7,
+   "alpha_px": 96,
+   "semi_px": 76,
+   "cx": 509,
+   "cy": 239,
+   "manifest_bbox": [
+    502,
+    236,
+    517,
+    243
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_MOUTH_CLOSED_ALT": {
+   "empty": false,
+   "bbox": [
+    498,
+    226,
+    520,
+    234
+   ],
+   "w": 22,
+   "h": 8,
+   "alpha_px": 139,
+   "semi_px": 134,
+   "cx": 509,
+   "cy": 230,
+   "manifest_bbox": [
+    498,
+    226,
+    520,
+    234
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_MOUTH_UPPER": {
+   "empty": false,
+   "bbox": [
+    498,
+    227,
+    520,
+    232
+   ],
+   "w": 22,
+   "h": 5,
+   "alpha_px": 87,
+   "semi_px": 85,
+   "cx": 509,
+   "cy": 229,
+   "manifest_bbox": [
+    498,
+    227,
+    520,
+    232
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_MOUTH_LOWER": {
+   "empty": false,
+   "bbox": [
+    501,
+    231,
+    518,
+    235
+   ],
+   "w": 17,
+   "h": 4,
+   "alpha_px": 61,
+   "semi_px": 54,
+   "cx": 509,
+   "cy": 233,
+   "manifest_bbox": [
+    501,
+    231,
+    518,
+    235
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_BLUSH_RIGHT": {
+   "empty": false,
+   "bbox": [
+    449,
+    203,
+    487,
+    221
+   ],
+   "w": 38,
+   "h": 18,
+   "alpha_px": 684,
+   "semi_px": 684,
+   "cx": 468,
+   "cy": 212,
+   "manifest_bbox": [
+    449,
+    203,
+    487,
+    221
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_BLUSH_LEFT": {
+   "empty": false,
+   "bbox": [
+    531,
+    203,
+    570,
+    221
+   ],
+   "w": 39,
+   "h": 18,
+   "alpha_px": 702,
+   "semi_px": 702,
+   "cx": 550,
+   "cy": 212,
+   "manifest_bbox": [
+    531,
+    203,
+    570,
+    221
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_EYEBROW_FULL_RIGHT": {
+   "empty": false,
+   "bbox": [
+    452,
+    147,
+    489,
+    156
+   ],
+   "w": 37,
+   "h": 9,
+   "alpha_px": 171,
+   "semi_px": 142,
+   "cx": 470,
+   "cy": 151,
+   "manifest_bbox": [
+    452,
+    147,
+    489,
+    156
+   ],
+   "bbox_matches_manifest": true
+  },
+  "ALT_EYEBROW_FULL_LEFT": {
+   "empty": false,
+   "bbox": [
+    525,
+    147,
+    565,
+    159
+   ],
+   "w": 40,
+   "h": 12,
+   "alpha_px": 226,
+   "semi_px": 189,
+   "cx": 545,
+   "cy": 153,
+   "manifest_bbox": [
+    525,
+    147,
+    565,
+    159
+   ],
+   "bbox_matches_manifest": true
+  }
+ }
+}

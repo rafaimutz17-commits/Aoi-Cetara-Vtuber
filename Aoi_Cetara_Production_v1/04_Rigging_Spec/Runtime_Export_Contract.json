@@ -1,0 +1,15 @@
+{
+  "status": "NOT_EXPORTED_NOT_LOADABLE",
+  "native_project_present": false,
+  "moc3_present": false,
+  "model3_present": false,
+  "texture_atlas_present": false,
+  "required_exports": [
+    "Aoi_Cetara.cmo3 (editable project; not loaded by VTube Studio)",
+    "Aoi_Cetara.moc3",
+    "Aoi_Cetara.model3.json",
+    "Aoi_Cetara.physics3.json",
+    "Texture atlas PNG(s) referenced by the exported model3.json"
+  ],
+  "instruction": "Generate these in Cubism after material cleanup, ArtMesh creation, deformation/keyforms, clipping, physics tuning and runtime export. No placeholder .moc3 or misleading model3.json is supplied."
+}

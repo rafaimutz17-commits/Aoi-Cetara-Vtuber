@@ -1,0 +1,265 @@
+{
+  "status": "PLAN_ONLY_NOT_CMO3",
+  "coordinate_system": "source pixels top-left origin",
+  "deformers": [
+    {
+      "id": "D_ROOT",
+      "parent": null,
+      "type": "rotation",
+      "pivot": [
+        512,
+        1460
+      ],
+      "parameters": [],
+      "members": [
+        "all"
+      ]
+    },
+    {
+      "id": "D_BODY",
+      "parent": "D_ROOT",
+      "type": "warp",
+      "pivot": [
+        512,
+        645
+      ],
+      "parameters": [
+        "ParamBodyAngleX",
+        "ParamBodyAngleY",
+        "ParamBodyAngleZ",
+        "ParamBreath"
+      ],
+      "members": [
+        "clothing",
+        "torso",
+        "arms",
+        "neck",
+        "head"
+      ]
+    },
+    {
+      "id": "D_HEAD_Z",
+      "parent": "D_BODY",
+      "type": "rotation",
+      "pivot": [
+        511,
+        275
+      ],
+      "parameters": [
+        "ParamAngleZ"
+      ],
+      "members": [
+        "head",
+        "face",
+        "eyes",
+        "brows",
+        "mouth",
+        "head hair",
+        "head accessories"
+      ]
+    },
+    {
+      "id": "D_HEAD_XY",
+      "parent": "D_HEAD_Z",
+      "type": "warp",
+      "pivot": [
+        511,
+        200
+      ],
+      "parameters": [
+        "ParamAngleX",
+        "ParamAngleY"
+      ],
+      "members": [
+        "face",
+        "ears",
+        "eyes",
+        "brows",
+        "mouth",
+        "front hair",
+        "head ornaments"
+      ]
+    },
+    {
+      "id": "D_EYE_L",
+      "parent": "D_HEAD_XY",
+      "type": "warp",
+      "pivot": [
+        545,
+        187
+      ],
+      "parameters": [
+        "ParamEyeLOpen",
+        "ParamEyeLSmile"
+      ],
+      "members": [
+        "EYE_*_LEFT",
+        "IRIS_LEFT",
+        "PUPIL_LEFT",
+        "HIGHLIGHT_LEFT",
+        "*_EYELID_LEFT"
+      ]
+    },
+    {
+      "id": "D_EYE_R",
+      "parent": "D_HEAD_XY",
+      "type": "warp",
+      "pivot": [
+        474,
+        187
+      ],
+      "parameters": [
+        "ParamEyeROpen",
+        "ParamEyeRSmile"
+      ],
+      "members": [
+        "EYE_*_RIGHT",
+        "IRIS_RIGHT",
+        "PUPIL_RIGHT",
+        "HIGHLIGHT_RIGHT",
+        "*_EYELID_RIGHT"
+      ]
+    },
+    {
+      "id": "D_GAZE_L",
+      "parent": "D_EYE_L",
+      "type": "warp",
+      "pivot": [
+        545,
+        187
+      ],
+      "parameters": [
+        "ParamEyeBallX",
+        "ParamEyeBallY"
+      ],
+      "members": [
+        "IRIS_LEFT",
+        "PUPIL_LEFT",
+        "HIGHLIGHT_LEFT"
+      ]
+    },
+    {
+      "id": "D_GAZE_R",
+      "parent": "D_EYE_R",
+      "type": "warp",
+      "pivot": [
+        474,
+        187
+      ],
+      "parameters": [
+        "ParamEyeBallX",
+        "ParamEyeBallY"
+      ],
+      "members": [
+        "IRIS_RIGHT",
+        "PUPIL_RIGHT",
+        "HIGHLIGHT_RIGHT"
+      ]
+    },
+    {
+      "id": "D_MOUTH",
+      "parent": "D_HEAD_XY",
+      "type": "warp",
+      "pivot": [
+        509,
+        231
+      ],
+      "parameters": [
+        "ParamMouthOpenY",
+        "ParamMouthForm",
+        "ParamMouthVowel"
+      ],
+      "members": [
+        "ALT_MOUTH_UPPER",
+        "ALT_MOUTH_LOWER",
+        "ALT_MOUTH_INSIDE",
+        "ALT_TEETH",
+        "ALT_TONGUE"
+      ]
+    },
+    {
+      "id": "D_HAIR_BACK",
+      "parent": "D_BODY",
+      "type": "warp",
+      "pivot": [
+        512,
+        175
+      ],
+      "parameters": [
+        "ParamHairBackLSway",
+        "ParamHairBackRSway"
+      ],
+      "members": [
+        "HAIR_BACK_LEFT",
+        "HAIR_BACK_RIGHT",
+        "HAIR_TIP_LEFT",
+        "HAIR_TIP_RIGHT"
+      ]
+    },
+    {
+      "id": "D_HAIR_FRONT",
+      "parent": "D_HEAD_XY",
+      "type": "warp",
+      "pivot": [
+        512,
+        85
+      ],
+      "parameters": [
+        "ParamHairFrontSway"
+      ],
+      "members": [
+        "BANG_RIGHT",
+        "BANG_CENTER",
+        "BANG_LEFT"
+      ]
+    },
+    {
+      "id": "D_SKIRT",
+      "parent": "D_BODY",
+      "type": "warp",
+      "pivot": [
+        512,
+        575
+      ],
+      "parameters": [
+        "ParamSkirtLSway",
+        "ParamSkirtRSway"
+      ],
+      "members": [
+        "SKIRT_*",
+        "TRAIN_*",
+        "OVERSKIRT_*"
+      ]
+    },
+    {
+      "id": "D_ACCESSORIES",
+      "parent": "D_BODY",
+      "type": "per-object rotation+warp",
+      "pivot": null,
+      "parameters": [
+        "ParamRibbonSway",
+        "ParamChainSway"
+      ],
+      "members": [
+        "chest ribbons",
+        "waist ribbons",
+        "waist chains"
+      ]
+    },
+    {
+      "id": "D_HEAD_ACCESSORIES",
+      "parent": "D_HEAD_XY",
+      "type": "per-object rotation+warp",
+      "pivot": null,
+      "parameters": [
+        "ParamEarringLSway",
+        "ParamEarringRSway",
+        "ParamWhaleOrnamentSway"
+      ],
+      "members": [
+        "earrings",
+        "whale ornament"
+      ]
+    }
+  ]
+}

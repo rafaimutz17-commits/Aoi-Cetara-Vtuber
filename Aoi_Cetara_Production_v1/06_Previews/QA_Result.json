@@ -1,0 +1,36 @@
+{
+  "canvas": [
+    1024,
+    1536
+  ],
+  "rgb_depth": 8,
+  "total_pixel_layers": 113,
+  "visible_cut_layers": 86,
+  "optional_backfill_layers": 5,
+  "optional_face_component_layers": 22,
+  "layer_names_unique": true,
+  "all_layers_nonempty": true,
+  "layer_masks": 0,
+  "default_composite_max_pixel_difference": 0,
+  "native_cubism_import_tested": false,
+  "live2d_rig_created": false,
+  "vtube_studio_tested": false,
+  "remaining_artwork_work": [
+    "Rapi ulang tepi potongan, terutama rantai dan perhiasan kecil.",
+    "Aktifkan backfill hanya setelah menyamakan posisi, outline, dan warna.",
+    "Lengkapi overlap antarhelai rambut, lengan, tangan, dan kain saat digerakkan.",
+    "Selaraskan bibir atas/bawah dan blush opsional; semua komponennya tersedia tetapi belum diuji deformasi.",
+    "Bangun masking sclera/iris dan semua keyform mata-mulut di Cubism."
+  ],
+  "psd_composite_mode": "RGBA",
+  "psd_independent_decoder": "ImageMagick",
+  "psd_composite_alpha_max_difference": 0,
+  "psd_display_rgb_max_difference_by_background": {
+    "0": 0.996,
+    "255": 0.996
+  },
+  "ora_crc_verified": true,
+  "all_delivered_png_decoded": true,
+  "all_json_parsed": true,
+  "all_layer_file_paths_exist": true
+}

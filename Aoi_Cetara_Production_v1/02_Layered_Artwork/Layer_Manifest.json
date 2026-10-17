@@ -1,0 +1,3168 @@
+{
+  "project": "Aoi Cetara",
+  "stage": "ART_PREPARATION_NOT_RIGGED",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "side_convention": "LEFT/RIGHT = anatomical character; viewer-left = RIGHT",
+  "layers": [
+    {
+      "group": "00_BACKFILL_ALIGN_FIRST",
+      "name": "BF_FACE_COMPLETE",
+      "visible": false,
+      "pivot": [
+        511,
+        211
+      ],
+      "status": "GENERATED_BACKFILL_ALIGNMENT_REQUIRED",
+      "source": "Backfill_Head_and_Dressed_Body.png",
+      "note": "Plate terpisah; offset awal y+20. Cocokkan kontur/shading sebelum diaktifkan.",
+      "order_bottom_to_top": 0,
+      "bbox": [
+        428,
+        60,
+        597,
+        272
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/00_BACKFILL_ALIGN_FIRST/BF_FACE_COMPLETE.png",
+      "nontransparent_pixels": 26431
+    },
+    {
+      "group": "00_BACKFILL_ALIGN_FIRST",
+      "name": "BF_NECK_AND_TORSO",
+      "visible": false,
+      "pivot": [
+        511,
+        330
+      ],
+      "status": "GENERATED_BACKFILL_ALIGNMENT_REQUIRED",
+      "source": "Backfill_Head_and_Dressed_Body.png",
+      "note": "Plate terpisah; offset awal y+20. Cocokkan kontur/shading sebelum diaktifkan.",
+      "order_bottom_to_top": 1,
+      "bbox": [
+        379,
+        260,
+        650,
+        456
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/00_BACKFILL_ALIGN_FIRST/BF_NECK_AND_TORSO.png",
+      "nontransparent_pixels": 38061
+    },
+    {
+      "group": "00_BACKFILL_ALIGN_FIRST",
+      "name": "BF_CLOTHING_BODY",
+      "visible": false,
+      "pivot": [
+        511,
+        565
+      ],
+      "status": "GENERATED_BACKFILL_ALIGNMENT_REQUIRED",
+      "source": "Backfill_Head_and_Dressed_Body.png",
+      "note": "Plate terpisah; offset awal y+20. Cocokkan kontur/shading sebelum diaktifkan.",
+      "order_bottom_to_top": 2,
+      "bbox": [
+        239,
+        371,
+        782,
+        892
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/00_BACKFILL_ALIGN_FIRST/BF_CLOTHING_BODY.png",
+      "nontransparent_pixels": 164495
+    },
+    {
+      "group": "00_BACKFILL_ALIGN_FIRST",
+      "name": "BF_LOWER_SKIRT",
+      "visible": false,
+      "pivot": [
+        511,
+        755
+      ],
+      "status": "GENERATED_BACKFILL_ALIGNMENT_REQUIRED",
+      "source": "Backfill_Head_and_Dressed_Body.png",
+      "note": "Plate terpisah; offset awal y+20. Cocokkan kontur/shading sebelum diaktifkan.",
+      "order_bottom_to_top": 3,
+      "bbox": [
+        158,
+        736,
+        859,
+        1510
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/00_BACKFILL_ALIGN_FIRST/BF_LOWER_SKIRT.png",
+      "nontransparent_pixels": 298405
+    },
+    {
+      "group": "00_BACKFILL_ALIGN_FIRST",
+      "name": "BF_HAIR_BACK_COMPLETE",
+      "visible": false,
+      "pivot": [
+        512,
+        150
+      ],
+      "status": "GENERATED_BACKFILL_ALIGNMENT_REQUIRED",
+      "source": "Backfill_Rear_Hair.png",
+      "note": "Rambut belakang utuh tanpa lubang kepala/badan. Periksa posisi dan siluet sebelum aktif.",
+      "order_bottom_to_top": 4,
+      "bbox": [
+        48,
+        57,
+        975,
+        978
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/00_BACKFILL_ALIGN_FIRST/BF_HAIR_BACK_COMPLETE.png",
+      "nontransparent_pixels": 530555
+    },
+    {
+      "group": "01_HAIR_BACK",
+      "name": "HAIR_BACK_RIGHT",
+      "pivot": [
+        460,
+        160
+      ],
+      "note": "Potongan awal; periksa batas bagian yang berdekatan.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 5,
+      "bbox": [
+        0,
+        0,
+        512,
+        1000
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/01_HAIR_BACK/HAIR_BACK_RIGHT.png",
+      "nontransparent_pixels": 81304
+    },
+    {
+      "group": "01_HAIR_BACK",
+      "name": "HAIR_BACK_LEFT",
+      "pivot": [
+        562,
+        160
+      ],
+      "note": "Potongan awal; periksa batas bagian yang berdekatan.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 6,
+      "bbox": [
+        512,
+        0,
+        984,
+        1000
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/01_HAIR_BACK/HAIR_BACK_LEFT.png",
+      "nontransparent_pixels": 89320
+    },
+    {
+      "group": "01_HAIR_BACK",
+      "name": "HAIR_TIP_RIGHT",
+      "pivot": [
+        184,
+        737
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 7,
+      "bbox": [
+        85,
+        694,
+        222,
+        954
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/01_HAIR_BACK/HAIR_TIP_RIGHT.png",
+      "nontransparent_pixels": 21136
+    },
+    {
+      "group": "01_HAIR_BACK",
+      "name": "HAIR_TIP_LEFT",
+      "pivot": [
+        840,
+        738
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 8,
+      "bbox": [
+        804,
+        693,
+        940,
+        960
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/01_HAIR_BACK/HAIR_TIP_LEFT.png",
+      "nontransparent_pixels": 21309
+    },
+    {
+      "group": "02_CLOTHING_BACK",
+      "name": "SKIRT_BACK_RIGHT",
+      "pivot": [
+        470,
+        570
+      ],
+      "note": "Potongan awal; periksa batas bagian yang berdekatan.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 9,
+      "bbox": [
+        0,
+        1000,
+        512,
+        1536
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/02_CLOTHING_BACK/SKIRT_BACK_RIGHT.png",
+      "nontransparent_pixels": 44293
+    },
+    {
+      "group": "02_CLOTHING_BACK",
+      "name": "SKIRT_BACK_LEFT",
+      "pivot": [
+        555,
+        570
+      ],
+      "note": "Potongan awal; periksa batas bagian yang berdekatan.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 10,
+      "bbox": [
+        512,
+        1000,
+        998,
+        1536
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/02_CLOTHING_BACK/SKIRT_BACK_LEFT.png",
+      "nontransparent_pixels": 39769
+    },
+    {
+      "group": "02_CLOTHING_BACK",
+      "name": "SKIRT_BACK_CENTER",
+      "pivot": [
+        512,
+        575
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 11,
+      "bbox": [
+        351,
+        890,
+        663,
+        1458
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/02_CLOTHING_BACK/SKIRT_BACK_CENTER.png",
+      "nontransparent_pixels": 59602
+    },
+    {
+      "group": "03_CLOTHING",
+      "name": "TRAIN_RIGHT",
+      "pivot": [
+        425,
+        640
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 12,
+      "bbox": [
+        29,
+        877,
+        405,
+        1522
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/03_CLOTHING/TRAIN_RIGHT.png",
+      "nontransparent_pixels": 58181
+    },
+    {
+      "group": "03_CLOTHING",
+      "name": "TRAIN_LEFT",
+      "pivot": [
+        598,
+        640
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 13,
+      "bbox": [
+        665,
+        882,
+        997,
+        1522
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/03_CLOTHING/TRAIN_LEFT.png",
+      "nontransparent_pixels": 46758
+    },
+    {
+      "group": "03_CLOTHING",
+      "name": "OVERSKIRT_RIGHT",
+      "pivot": [
+        438,
+        562
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 14,
+      "bbox": [
+        228,
+        660,
+        443,
+        1491
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/03_CLOTHING/OVERSKIRT_RIGHT.png",
+      "nontransparent_pixels": 56418
+    },
+    {
+      "group": "03_CLOTHING",
+      "name": "OVERSKIRT_LEFT",
+      "pivot": [
+        585,
+        562
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 15,
+      "bbox": [
+        577,
+        670,
+        802,
+        1501
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/03_CLOTHING/OVERSKIRT_LEFT.png",
+      "nontransparent_pixels": 71417
+    },
+    {
+      "group": "03_CLOTHING",
+      "name": "SKIRT_FRONT_RIGHT",
+      "pivot": [
+        443,
+        542
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 16,
+      "bbox": [
+        244,
+        518,
+        451,
+        836
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/03_CLOTHING/SKIRT_FRONT_RIGHT.png",
+      "nontransparent_pixels": 32416
+    },
+    {
+      "group": "03_CLOTHING",
+      "name": "SKIRT_FRONT_LEFT",
+      "pivot": [
+        585,
+        542
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 17,
+      "bbox": [
+        568,
+        519,
+        791,
+        842
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/03_CLOTHING/SKIRT_FRONT_LEFT.png",
+      "nontransparent_pixels": 31698
+    },
+    {
+      "group": "03_CLOTHING",
+      "name": "SKIRT_FRONT_CENTER",
+      "pivot": [
+        511,
+        570
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 18,
+      "bbox": [
+        426,
+        545,
+        612,
+        790
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/03_CLOTHING/SKIRT_FRONT_CENTER.png",
+      "nontransparent_pixels": 32726
+    },
+    {
+      "group": "03_CLOTHING",
+      "name": "BODICE",
+      "pivot": [
+        509,
+        453
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 19,
+      "bbox": [
+        419,
+        364,
+        604,
+        586
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/03_CLOTHING/BODICE.png",
+      "nontransparent_pixels": 18437
+    },
+    {
+      "group": "03_CLOTHING",
+      "name": "SLEEVE_RIGHT",
+      "pivot": [
+        397,
+        392
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 20,
+      "bbox": [
+        308,
+        366,
+        435,
+        519
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/03_CLOTHING/SLEEVE_RIGHT.png",
+      "nontransparent_pixels": 11401
+    },
+    {
+      "group": "03_CLOTHING",
+      "name": "SLEEVE_LEFT",
+      "pivot": [
+        628,
+        392
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 21,
+      "bbox": [
+        590,
+        367,
+        714,
+        518
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/03_CLOTHING/SLEEVE_LEFT.png",
+      "nontransparent_pixels": 11255
+    },
+    {
+      "group": "04_BODY",
+      "name": "LEG_RIGHT",
+      "pivot": [
+        475,
+        790
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 22,
+      "bbox": [
+        432,
+        771,
+        511,
+        1269
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/04_BODY/LEG_RIGHT.png",
+      "nontransparent_pixels": 32414
+    },
+    {
+      "group": "04_BODY",
+      "name": "LEG_LEFT",
+      "pivot": [
+        544,
+        788
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 23,
+      "bbox": [
+        505,
+        771,
+        601,
+        1302
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/04_BODY/LEG_LEFT.png",
+      "nontransparent_pixels": 32380
+    },
+    {
+      "group": "04_BODY",
+      "name": "SHOE_RIGHT",
+      "pivot": [
+        480,
+        1297
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 24,
+      "bbox": [
+        437,
+        1245,
+        513,
+        1458
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/04_BODY/SHOE_RIGHT.png",
+      "nontransparent_pixels": 11653
+    },
+    {
+      "group": "04_BODY",
+      "name": "SHOE_LEFT",
+      "pivot": [
+        536,
+        1350
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 25,
+      "bbox": [
+        494,
+        1286,
+        595,
+        1525
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/04_BODY/SHOE_LEFT.png",
+      "nontransparent_pixels": 15713
+    },
+    {
+      "group": "04_BODY",
+      "name": "NECK",
+      "pivot": [
+        510,
+        269
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 26,
+      "bbox": [
+        469,
+        250,
+        553,
+        292
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/04_BODY/NECK.png",
+      "nontransparent_pixels": 664
+    },
+    {
+      "group": "04_BODY",
+      "name": "TORSO_UPPER",
+      "pivot": [
+        510,
+        365
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 27,
+      "bbox": [
+        396,
+        290,
+        630,
+        386
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/04_BODY/TORSO_UPPER.png",
+      "nontransparent_pixels": 10257
+    },
+    {
+      "group": "05_ARMS",
+      "name": "ARM_RIGHT",
+      "pivot": [
+        390,
+        480
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 28,
+      "bbox": [
+        267,
+        492,
+        396,
+        665
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/05_ARMS/ARM_RIGHT.png",
+      "nontransparent_pixels": 7679
+    },
+    {
+      "group": "05_ARMS",
+      "name": "ARM_LEFT",
+      "pivot": [
+        635,
+        480
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 29,
+      "bbox": [
+        629,
+        495,
+        759,
+        680
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/05_ARMS/ARM_LEFT.png",
+      "nontransparent_pixels": 8005
+    },
+    {
+      "group": "05_ARMS",
+      "name": "HAND_RIGHT",
+      "pivot": [
+        260,
+        686
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 30,
+      "bbox": [
+        187,
+        668,
+        277,
+        785
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/05_ARMS/HAND_RIGHT.png",
+      "nontransparent_pixels": 4453
+    },
+    {
+      "group": "05_ARMS",
+      "name": "HAND_LEFT",
+      "pivot": [
+        765,
+        687
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 31,
+      "bbox": [
+        746,
+        670,
+        839,
+        785
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/05_ARMS/HAND_LEFT.png",
+      "nontransparent_pixels": 4589
+    },
+    {
+      "group": "06_FACE",
+      "name": "FACE",
+      "pivot": [
+        511,
+        211
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 32,
+      "bbox": [
+        455,
+        124,
+        565,
+        269
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/06_FACE/FACE.png",
+      "nontransparent_pixels": 6253
+    },
+    {
+      "group": "06_FACE",
+      "name": "EAR_RIGHT",
+      "pivot": [
+        447,
+        210
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 33,
+      "bbox": [
+        451,
+        201,
+        467,
+        227
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/06_FACE/EAR_RIGHT.png",
+      "nontransparent_pixels": 209
+    },
+    {
+      "group": "06_FACE",
+      "name": "EAR_LEFT",
+      "pivot": [
+        571,
+        211
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 34,
+      "bbox": [
+        555,
+        196,
+        575,
+        233
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/06_FACE/EAR_LEFT.png",
+      "nontransparent_pixels": 366
+    },
+    {
+      "group": "06_FACE",
+      "name": "NOSE",
+      "pivot": [
+        508,
+        204
+      ],
+      "note": "Sorot dan garis hidung dipisah dari dasar wajah.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 35,
+      "bbox": [
+        501,
+        195,
+        516,
+        214
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/06_FACE/NOSE.png",
+      "nontransparent_pixels": 285
+    },
+    {
+      "group": "07_EYES",
+      "name": "EYE_WHITE_RIGHT",
+      "pivot": [
+        474,
+        187
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 36,
+      "bbox": [
+        447,
+        179,
+        497,
+        199
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/EYE_WHITE_RIGHT.png",
+      "nontransparent_pixels": 313
+    },
+    {
+      "group": "07_EYES",
+      "name": "IRIS_RIGHT",
+      "pivot": [
+        474,
+        187
+      ],
+      "note": "Iris tampak saja; ganti/isi batas tersembunyi memakai komponen iris lengkap.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 37,
+      "bbox": [
+        461,
+        178,
+        488,
+        199
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/IRIS_RIGHT.png",
+      "nontransparent_pixels": 374
+    },
+    {
+      "group": "07_EYES",
+      "name": "PUPIL_RIGHT",
+      "pivot": [
+        474,
+        186
+      ],
+      "note": "Potongan pupil netral; siapkan clipping dengan sclera saat rig.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 38,
+      "bbox": [
+        470,
+        182,
+        479,
+        194
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/PUPIL_RIGHT.png",
+      "nontransparent_pixels": 64
+    },
+    {
+      "group": "07_EYES",
+      "name": "HIGHLIGHT_RIGHT",
+      "pivot": [
+        474,
+        182
+      ],
+      "note": "Potongan awal; periksa batas bagian yang berdekatan.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 39,
+      "bbox": [
+        470,
+        178,
+        478,
+        185
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/HIGHLIGHT_RIGHT.png",
+      "nontransparent_pixels": 56
+    },
+    {
+      "group": "07_EYES",
+      "name": "UPPER_EYELID_RIGHT",
+      "pivot": [
+        474,
+        178
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 40,
+      "bbox": [
+        443,
+        171,
+        501,
+        187
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/UPPER_EYELID_RIGHT.png",
+      "nontransparent_pixels": 412
+    },
+    {
+      "group": "07_EYES",
+      "name": "LOWER_EYELID_RIGHT",
+      "pivot": [
+        474,
+        199
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 41,
+      "bbox": [
+        449,
+        195,
+        492,
+        203
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/LOWER_EYELID_RIGHT.png",
+      "nontransparent_pixels": 160
+    },
+    {
+      "group": "07_EYES",
+      "name": "EYE_WHITE_LEFT",
+      "pivot": [
+        545,
+        187
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 42,
+      "bbox": [
+        525,
+        179,
+        576,
+        199
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/EYE_WHITE_LEFT.png",
+      "nontransparent_pixels": 333
+    },
+    {
+      "group": "07_EYES",
+      "name": "IRIS_LEFT",
+      "pivot": [
+        545,
+        187
+      ],
+      "note": "Iris tampak saja; ganti/isi batas tersembunyi memakai komponen iris lengkap.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 43,
+      "bbox": [
+        532,
+        178,
+        559,
+        199
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/IRIS_LEFT.png",
+      "nontransparent_pixels": 373
+    },
+    {
+      "group": "07_EYES",
+      "name": "PUPIL_LEFT",
+      "pivot": [
+        545,
+        186
+      ],
+      "note": "Potongan pupil netral; siapkan clipping dengan sclera saat rig.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 44,
+      "bbox": [
+        541,
+        182,
+        550,
+        194
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/PUPIL_LEFT.png",
+      "nontransparent_pixels": 64
+    },
+    {
+      "group": "07_EYES",
+      "name": "HIGHLIGHT_LEFT",
+      "pivot": [
+        545,
+        182
+      ],
+      "note": "Potongan awal; periksa batas bagian yang berdekatan.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 45,
+      "bbox": [
+        541,
+        178,
+        549,
+        185
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/HIGHLIGHT_LEFT.png",
+      "nontransparent_pixels": 56
+    },
+    {
+      "group": "07_EYES",
+      "name": "UPPER_EYELID_LEFT",
+      "pivot": [
+        545,
+        178
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 46,
+      "bbox": [
+        521,
+        171,
+        580,
+        187
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/UPPER_EYELID_LEFT.png",
+      "nontransparent_pixels": 396
+    },
+    {
+      "group": "07_EYES",
+      "name": "LOWER_EYELID_LEFT",
+      "pivot": [
+        545,
+        199
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 47,
+      "bbox": [
+        527,
+        195,
+        571,
+        203
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/07_EYES/LOWER_EYELID_LEFT.png",
+      "nontransparent_pixels": 166
+    },
+    {
+      "group": "08_BROWS",
+      "name": "EYEBROW_RIGHT",
+      "pivot": [
+        470,
+        151
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 48,
+      "bbox": [
+        452,
+        147,
+        489,
+        157
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/08_BROWS/EYEBROW_RIGHT.png",
+      "nontransparent_pixels": 162
+    },
+    {
+      "group": "08_BROWS",
+      "name": "EYEBROW_LEFT",
+      "pivot": [
+        545,
+        151
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 49,
+      "bbox": [
+        525,
+        147,
+        566,
+        160
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/08_BROWS/EYEBROW_LEFT.png",
+      "nontransparent_pixels": 179
+    },
+    {
+      "group": "09_MOUTH",
+      "name": "MOUTH_CLOSED_NEUTRAL",
+      "pivot": [
+        509,
+        230
+      ],
+      "note": "Bibir default tertutup. Bangun keyform bibir atas/bawah; jangan regangkan garis ini sebagai seluruh mulut terbuka.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 50,
+      "bbox": [
+        499,
+        225,
+        520,
+        237
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/09_MOUTH/MOUTH_CLOSED_NEUTRAL.png",
+      "nontransparent_pixels": 252
+    },
+    {
+      "group": "10_HAIR_SIDE",
+      "name": "HAIR_SIDE_RIGHT",
+      "pivot": [
+        431,
+        185
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 51,
+      "bbox": [
+        395,
+        134,
+        470,
+        361
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/10_HAIR_SIDE/HAIR_SIDE_RIGHT.png",
+      "nontransparent_pixels": 5448
+    },
+    {
+      "group": "10_HAIR_SIDE",
+      "name": "HAIR_SIDE_LEFT",
+      "pivot": [
+        586,
+        185
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 52,
+      "bbox": [
+        550,
+        135,
+        625,
+        370
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/10_HAIR_SIDE/HAIR_SIDE_LEFT.png",
+      "nontransparent_pixels": 5896
+    },
+    {
+      "group": "10_HAIR_SIDE",
+      "name": "HAIR_TRESS_RIGHT",
+      "pivot": [
+        403,
+        272
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 53,
+      "bbox": [
+        280,
+        259,
+        415,
+        401
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/10_HAIR_SIDE/HAIR_TRESS_RIGHT.png",
+      "nontransparent_pixels": 3667
+    },
+    {
+      "group": "10_HAIR_SIDE",
+      "name": "HAIR_TRESS_LEFT",
+      "pivot": [
+        619,
+        271
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 54,
+      "bbox": [
+        610,
+        258,
+        746,
+        408
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/10_HAIR_SIDE/HAIR_TRESS_LEFT.png",
+      "nontransparent_pixels": 4551
+    },
+    {
+      "group": "11_HAIR_FRONT",
+      "name": "HAIR_CROWN",
+      "pivot": [
+        510,
+        81
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 55,
+      "bbox": [
+        398,
+        53,
+        602,
+        142
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/11_HAIR_FRONT/HAIR_CROWN.png",
+      "nontransparent_pixels": 3583
+    },
+    {
+      "group": "11_HAIR_FRONT",
+      "name": "BANG_RIGHT",
+      "pivot": [
+        464,
+        97
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 56,
+      "bbox": [
+        412,
+        71,
+        488,
+        221
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/11_HAIR_FRONT/BANG_RIGHT.png",
+      "nontransparent_pixels": 5269
+    },
+    {
+      "group": "11_HAIR_FRONT",
+      "name": "BANG_CENTER",
+      "pivot": [
+        504,
+        86
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 57,
+      "bbox": [
+        478,
+        65,
+        532,
+        199
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/11_HAIR_FRONT/BANG_CENTER.png",
+      "nontransparent_pixels": 3572
+    },
+    {
+      "group": "11_HAIR_FRONT",
+      "name": "BANG_LEFT",
+      "pivot": [
+        541,
+        92
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 58,
+      "bbox": [
+        517,
+        68,
+        632,
+        214
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/11_HAIR_FRONT/BANG_LEFT.png",
+      "nontransparent_pixels": 6824
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "TIARA",
+      "pivot": [
+        510,
+        57
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 59,
+      "bbox": [
+        432,
+        4,
+        584,
+        75
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/TIARA.png",
+      "nontransparent_pixels": 4603
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "WHALE_TAIL_ORNAMENT",
+      "pivot": [
+        605,
+        88
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 60,
+      "bbox": [
+        545,
+        32,
+        691,
+        92
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/WHALE_TAIL_ORNAMENT.png",
+      "nontransparent_pixels": 3853
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "HAIR_FLOWER_MAIN",
+      "pivot": [
+        609,
+        104
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 61,
+      "bbox": [
+        582,
+        72,
+        639,
+        129
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/HAIR_FLOWER_MAIN.png",
+      "nontransparent_pixels": 1928
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "HAIR_FLOWERS_SMALL",
+      "pivot": [
+        644,
+        145
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 62,
+      "bbox": [
+        616,
+        111,
+        666,
+        179
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/HAIR_FLOWERS_SMALL.png",
+      "nontransparent_pixels": 2187
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "HAIR_CLIP_RIGHT",
+      "pivot": [
+        414,
+        111
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 63,
+      "bbox": [
+        394,
+        78,
+        434,
+        132
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/HAIR_CLIP_RIGHT.png",
+      "nontransparent_pixels": 1143
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "FOREHEAD_JEWEL",
+      "pivot": [
+        508,
+        102
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 64,
+      "bbox": [
+        489,
+        86,
+        520,
+        144
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/FOREHEAD_JEWEL.png",
+      "nontransparent_pixels": 1081
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "HAIR_CHAIN_LEFT",
+      "pivot": [
+        656,
+        180
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 65,
+      "bbox": [
+        629,
+        174,
+        661,
+        334
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/HAIR_CHAIN_LEFT.png",
+      "nontransparent_pixels": 1754
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "HAIR_CHAIN_RIGHT",
+      "pivot": [
+        407,
+        168
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 66,
+      "bbox": [
+        366,
+        160,
+        414,
+        318
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/HAIR_CHAIN_RIGHT.png",
+      "nontransparent_pixels": 1583
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "EARRING_RIGHT",
+      "pivot": [
+        450,
+        232
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 67,
+      "bbox": [
+        447,
+        229,
+        466,
+        269
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/EARRING_RIGHT.png",
+      "nontransparent_pixels": 415
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "EARRING_LEFT",
+      "pivot": [
+        568,
+        232
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 68,
+      "bbox": [
+        555,
+        229,
+        574,
+        270
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/EARRING_LEFT.png",
+      "nontransparent_pixels": 398
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "COLLAR",
+      "pivot": [
+        512,
+        286
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 69,
+      "bbox": [
+        471,
+        260,
+        552,
+        300
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/COLLAR.png",
+      "nontransparent_pixels": 1637
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "NECK_RIBBON",
+      "pivot": [
+        510,
+        298
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 70,
+      "bbox": [
+        473,
+        285,
+        554,
+        350
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/NECK_RIBBON.png",
+      "nontransparent_pixels": 3051
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "NECK_PENDANT",
+      "pivot": [
+        510,
+        317
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 71,
+      "bbox": [
+        502,
+        315,
+        519,
+        365
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/NECK_PENDANT.png",
+      "nontransparent_pixels": 579
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "CHEST_RIBBON_RIGHT",
+      "pivot": [
+        505,
+        417
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 72,
+      "bbox": [
+        443,
+        383,
+        505,
+        442
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/CHEST_RIBBON_RIGHT.png",
+      "nontransparent_pixels": 2356
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "CHEST_RIBBON_LEFT",
+      "pivot": [
+        512,
+        417
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 73,
+      "bbox": [
+        516,
+        383,
+        576,
+        443
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/CHEST_RIBBON_LEFT.png",
+      "nontransparent_pixels": 2317
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "CHEST_RIBBON_TAIL_RIGHT",
+      "pivot": [
+        501,
+        429
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 74,
+      "bbox": [
+        454,
+        425,
+        505,
+        531
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/CHEST_RIBBON_TAIL_RIGHT.png",
+      "nontransparent_pixels": 2350
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "CHEST_RIBBON_TAIL_LEFT",
+      "pivot": [
+        518,
+        429
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 75,
+      "bbox": [
+        514,
+        424,
+        568,
+        533
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/CHEST_RIBBON_TAIL_LEFT.png",
+      "nontransparent_pixels": 2716
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "CHEST_GEM",
+      "pivot": [
+        509,
+        418
+      ],
+      "note": "Potongan awal; periksa batas bagian yang berdekatan.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 76,
+      "bbox": [
+        499,
+        408,
+        519,
+        431
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/CHEST_GEM.png",
+      "nontransparent_pixels": 449
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "CHEST_CHAIN",
+      "pivot": [
+        509,
+        431
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 77,
+      "bbox": [
+        501,
+        430,
+        519,
+        559
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/CHEST_CHAIN.png",
+      "nontransparent_pixels": 1312
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "SLEEVE_FLOWER_RIGHT",
+      "pivot": [
+        383,
+        416
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 78,
+      "bbox": [
+        354,
+        398,
+        413,
+        442
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/SLEEVE_FLOWER_RIGHT.png",
+      "nontransparent_pixels": 1548
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "SLEEVE_FLOWER_LEFT",
+      "pivot": [
+        644,
+        419
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 79,
+      "bbox": [
+        616,
+        397,
+        673,
+        444
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/SLEEVE_FLOWER_LEFT.png",
+      "nontransparent_pixels": 1559
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "WAIST_RIBBON_RIGHT",
+      "pivot": [
+        384,
+        589
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 80,
+      "bbox": [
+        337,
+        570,
+        422,
+        627
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/WAIST_RIBBON_RIGHT.png",
+      "nontransparent_pixels": 2556
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "WAIST_RIBBON_LEFT",
+      "pivot": [
+        639,
+        590
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 81,
+      "bbox": [
+        607,
+        570,
+        683,
+        629
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/WAIST_RIBBON_LEFT.png",
+      "nontransparent_pixels": 2649
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "WAIST_CHAIN",
+      "pivot": [
+        510,
+        586
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 82,
+      "bbox": [
+        436,
+        545,
+        583,
+        622
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/WAIST_CHAIN.png",
+      "nontransparent_pixels": 1936
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "BRACELET_RIGHT",
+      "pivot": [
+        271,
+        662
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 83,
+      "bbox": [
+        244,
+        633,
+        298,
+        689
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/BRACELET_RIGHT.png",
+      "nontransparent_pixels": 1907
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "BRACELET_LEFT",
+      "pivot": [
+        754,
+        663
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 84,
+      "bbox": [
+        728,
+        634,
+        782,
+        688
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/BRACELET_LEFT.png",
+      "nontransparent_pixels": 1969
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "THIGH_GARTER_LEFT",
+      "pivot": [
+        548,
+        833
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 85,
+      "bbox": [
+        508,
+        807,
+        595,
+        863
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/THIGH_GARTER_LEFT.png",
+      "nontransparent_pixels": 3578
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "THIGH_JEWELS_LEFT",
+      "pivot": [
+        548,
+        855
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 86,
+      "bbox": [
+        527,
+        850,
+        598,
+        928
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/THIGH_JEWELS_LEFT.png",
+      "nontransparent_pixels": 2345
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "TRAIN_GEM_RIGHT",
+      "pivot": [
+        157,
+        1034
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 87,
+      "bbox": [
+        145,
+        1026,
+        170,
+        1075
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/TRAIN_GEM_RIGHT.png",
+      "nontransparent_pixels": 847
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "TRAIN_GEM_LEFT",
+      "pivot": [
+        869,
+        1035
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 88,
+      "bbox": [
+        858,
+        1027,
+        882,
+        1077
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/TRAIN_GEM_LEFT.png",
+      "nontransparent_pixels": 800
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "HAIR_STAR_RIGHT",
+      "pivot": [
+        117,
+        824
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 89,
+      "bbox": [
+        105,
+        820,
+        129,
+        883
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/HAIR_STAR_RIGHT.png",
+      "nontransparent_pixels": 990
+    },
+    {
+      "group": "12_ACCESSORIES",
+      "name": "HAIR_STAR_LEFT",
+      "pivot": [
+        915,
+        826
+      ],
+      "note": "Potongan awal; rapikan tepi dan overlap sebelum deformasi.",
+      "visible": true,
+      "status": "CUT_NEEDS_EDGE_AND_OVERLAP_REVIEW",
+      "source": "Aoi_Cetara_Neutral_Master.png",
+      "order_bottom_to_top": 90,
+      "bbox": [
+        900,
+        822,
+        927,
+        890
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/12_ACCESSORIES/HAIR_STAR_LEFT.png",
+      "nontransparent_pixels": 1076
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_SCLERA_RIGHT",
+      "visible": false,
+      "pivot": [
+        471,
+        188
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 91,
+      "bbox": [
+        446,
+        174,
+        496,
+        202
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_SCLERA_RIGHT.png",
+      "nontransparent_pixels": 1091
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_SCLERA_LEFT",
+      "visible": false,
+      "pivot": [
+        549,
+        188
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 92,
+      "bbox": [
+        524,
+        174,
+        574,
+        202
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_SCLERA_LEFT.png",
+      "nontransparent_pixels": 1138
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_IRIS_FULL_RIGHT",
+      "visible": false,
+      "pivot": [
+        474,
+        187
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 93,
+      "bbox": [
+        460,
+        173,
+        488,
+        201
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_IRIS_FULL_RIGHT.png",
+      "nontransparent_pixels": 564
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_IRIS_FULL_LEFT",
+      "visible": false,
+      "pivot": [
+        545,
+        187
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 94,
+      "bbox": [
+        531,
+        173,
+        559,
+        201
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_IRIS_FULL_LEFT.png",
+      "nontransparent_pixels": 710
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_PUPIL_FULL_RIGHT",
+      "visible": false,
+      "pivot": [
+        474,
+        186
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 95,
+      "bbox": [
+        470,
+        178,
+        478,
+        195
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_PUPIL_FULL_RIGHT.png",
+      "nontransparent_pixels": 129
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_PUPIL_FULL_LEFT",
+      "visible": false,
+      "pivot": [
+        545,
+        186
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 96,
+      "bbox": [
+        541,
+        178,
+        549,
+        195
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_PUPIL_FULL_LEFT.png",
+      "nontransparent_pixels": 128
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_GLINT_RIGHT",
+      "visible": false,
+      "pivot": [
+        474,
+        183
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 97,
+      "bbox": [
+        467,
+        177,
+        481,
+        189
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_GLINT_RIGHT.png",
+      "nontransparent_pixels": 103
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_GLINT_LEFT",
+      "visible": false,
+      "pivot": [
+        545,
+        183
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 98,
+      "bbox": [
+        538,
+        177,
+        552,
+        189
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_GLINT_LEFT.png",
+      "nontransparent_pixels": 98
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_LASH_UPPER_RIGHT",
+      "visible": false,
+      "pivot": [
+        471,
+        178
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 99,
+      "bbox": [
+        445,
+        171,
+        497,
+        186
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_LASH_UPPER_RIGHT.png",
+      "nontransparent_pixels": 414
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_LASH_UPPER_LEFT",
+      "visible": false,
+      "pivot": [
+        549,
+        178
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 100,
+      "bbox": [
+        523,
+        171,
+        575,
+        186
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_LASH_UPPER_LEFT.png",
+      "nontransparent_pixels": 344
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_LASH_LOWER_RIGHT",
+      "visible": false,
+      "pivot": [
+        471,
+        199
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 101,
+      "bbox": [
+        450,
+        195,
+        492,
+        203
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_LASH_LOWER_RIGHT.png",
+      "nontransparent_pixels": 172
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_LASH_LOWER_LEFT",
+      "visible": false,
+      "pivot": [
+        549,
+        199
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 102,
+      "bbox": [
+        528,
+        195,
+        571,
+        203
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_LASH_LOWER_LEFT.png",
+      "nontransparent_pixels": 214
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_MOUTH_INSIDE",
+      "visible": false,
+      "pivot": [
+        509,
+        236
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 103,
+      "bbox": [
+        496,
+        228,
+        522,
+        244
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_MOUTH_INSIDE.png",
+      "nontransparent_pixels": 371
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_TEETH",
+      "visible": false,
+      "pivot": [
+        509,
+        231
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 104,
+      "bbox": [
+        499,
+        229,
+        519,
+        234
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_TEETH.png",
+      "nontransparent_pixels": 87
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_TONGUE",
+      "visible": false,
+      "pivot": [
+        509,
+        239
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 105,
+      "bbox": [
+        502,
+        236,
+        517,
+        243
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_TONGUE.png",
+      "nontransparent_pixels": 96
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_MOUTH_CLOSED_ALT",
+      "visible": false,
+      "pivot": [
+        509,
+        230
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Face_Components_Sheet.png",
+      "note": "Komponen lengkap dari plate terpisah; ganti padanan asli, jangan aktifkan keduanya. Sesuaikan outline dan warna.",
+      "order_bottom_to_top": 106,
+      "bbox": [
+        498,
+        226,
+        520,
+        234
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_MOUTH_CLOSED_ALT.png",
+      "nontransparent_pixels": 139
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_MOUTH_UPPER",
+      "visible": false,
+      "pivot": [
+        509,
+        229
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Facial_Supplement_Sheet.png",
+      "note": "Bahan tambahan terpisah; sesuaikan kontur/warna. Blush default opacity 0; aktif hanya untuk ekspresi.",
+      "order_bottom_to_top": 107,
+      "bbox": [
+        498,
+        227,
+        520,
+        232
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_MOUTH_UPPER.png",
+      "nontransparent_pixels": 87
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_MOUTH_LOWER",
+      "visible": false,
+      "pivot": [
+        509,
+        233
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Facial_Supplement_Sheet.png",
+      "note": "Bahan tambahan terpisah; sesuaikan kontur/warna. Blush default opacity 0; aktif hanya untuk ekspresi.",
+      "order_bottom_to_top": 108,
+      "bbox": [
+        501,
+        231,
+        518,
+        235
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_MOUTH_LOWER.png",
+      "nontransparent_pixels": 61
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_BLUSH_RIGHT",
+      "visible": false,
+      "pivot": [
+        468,
+        212
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Facial_Supplement_Sheet.png",
+      "note": "Bahan tambahan terpisah; sesuaikan kontur/warna. Blush default opacity 0; aktif hanya untuk ekspresi.",
+      "order_bottom_to_top": 109,
+      "bbox": [
+        449,
+        203,
+        487,
+        221
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_BLUSH_RIGHT.png",
+      "nontransparent_pixels": 684
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_BLUSH_LEFT",
+      "visible": false,
+      "pivot": [
+        550,
+        212
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Facial_Supplement_Sheet.png",
+      "note": "Bahan tambahan terpisah; sesuaikan kontur/warna. Blush default opacity 0; aktif hanya untuk ekspresi.",
+      "order_bottom_to_top": 110,
+      "bbox": [
+        531,
+        203,
+        570,
+        221
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_BLUSH_LEFT.png",
+      "nontransparent_pixels": 702
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_EYEBROW_FULL_RIGHT",
+      "visible": false,
+      "pivot": [
+        470,
+        151
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Facial_Supplement_Sheet.png",
+      "note": "Bahan tambahan terpisah; sesuaikan kontur/warna. Blush default opacity 0; aktif hanya untuk ekspresi.",
+      "order_bottom_to_top": 111,
+      "bbox": [
+        452,
+        147,
+        489,
+        156
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_EYEBROW_FULL_RIGHT.png",
+      "nontransparent_pixels": 171
+    },
+    {
+      "group": "13_FACE_COMPONENTS_ALTERNATES",
+      "name": "ALT_EYEBROW_FULL_LEFT",
+      "visible": false,
+      "pivot": [
+        545,
+        153
+      ],
+      "status": "OPTIONAL_COMPONENT_FIT_AND_CLEAN_REQUIRED",
+      "source": "Facial_Supplement_Sheet.png",
+      "note": "Bahan tambahan terpisah; sesuaikan kontur/warna. Blush default opacity 0; aktif hanya untuk ekspresi.",
+      "order_bottom_to_top": 112,
+      "bbox": [
+        525,
+        147,
+        565,
+        159
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "png": "03_PNG_Layers/13_FACE_COMPONENTS_ALTERNATES/ALT_EYEBROW_FULL_LEFT.png",
+      "nontransparent_pixels": 226
+    }
+  ],
+  "face_components": [
+    {
+      "name": "SCLERA_RIGHT",
+      "source_cell": 1,
+      "source_size": [
+        245,
+        139
+      ],
+      "target_bbox": [
+        446,
+        174,
+        496,
+        202
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/SCLERA_RIGHT.png"
+    },
+    {
+      "name": "SCLERA_LEFT",
+      "source_cell": 2,
+      "source_size": [
+        235,
+        140
+      ],
+      "target_bbox": [
+        524,
+        174,
+        574,
+        202
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/SCLERA_LEFT.png"
+    },
+    {
+      "name": "IRIS_FULL_RIGHT",
+      "source_cell": 3,
+      "source_size": [
+        291,
+        196
+      ],
+      "target_bbox": [
+        460,
+        173,
+        488,
+        201
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/IRIS_FULL_RIGHT.png"
+    },
+    {
+      "name": "IRIS_FULL_LEFT",
+      "source_cell": 4,
+      "source_size": [
+        210,
+        196
+      ],
+      "target_bbox": [
+        531,
+        173,
+        559,
+        201
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/IRIS_FULL_LEFT.png"
+    },
+    {
+      "name": "PUPIL_FULL_RIGHT",
+      "source_cell": 5,
+      "source_size": [
+        42,
+        103
+      ],
+      "target_bbox": [
+        470,
+        178,
+        478,
+        195
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/PUPIL_FULL_RIGHT.png"
+    },
+    {
+      "name": "PUPIL_FULL_LEFT",
+      "source_cell": 6,
+      "source_size": [
+        42,
+        103
+      ],
+      "target_bbox": [
+        541,
+        178,
+        549,
+        195
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/PUPIL_FULL_LEFT.png"
+    },
+    {
+      "name": "GLINT_RIGHT",
+      "source_cell": 7,
+      "source_size": [
+        142,
+        309
+      ],
+      "target_bbox": [
+        467,
+        177,
+        481,
+        189
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/GLINT_RIGHT.png"
+    },
+    {
+      "name": "GLINT_LEFT",
+      "source_cell": 8,
+      "source_size": [
+        135,
+        309
+      ],
+      "target_bbox": [
+        538,
+        177,
+        552,
+        189
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/GLINT_LEFT.png"
+    },
+    {
+      "name": "LASH_UPPER_RIGHT",
+      "source_cell": 9,
+      "source_size": [
+        268,
+        104
+      ],
+      "target_bbox": [
+        445,
+        171,
+        497,
+        186
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/LASH_UPPER_RIGHT.png"
+    },
+    {
+      "name": "LASH_UPPER_LEFT",
+      "source_cell": 10,
+      "source_size": [
+        313,
+        103
+      ],
+      "target_bbox": [
+        523,
+        171,
+        575,
+        186
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/LASH_UPPER_LEFT.png"
+    },
+    {
+      "name": "LASH_LOWER_RIGHT",
+      "source_cell": 11,
+      "source_size": [
+        243,
+        87
+      ],
+      "target_bbox": [
+        450,
+        195,
+        492,
+        203
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/LASH_LOWER_RIGHT.png"
+    },
+    {
+      "name": "LASH_LOWER_LEFT",
+      "source_cell": 12,
+      "source_size": [
+        165,
+        89
+      ],
+      "target_bbox": [
+        528,
+        195,
+        571,
+        203
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/LASH_LOWER_LEFT.png"
+    },
+    {
+      "name": "MOUTH_INSIDE",
+      "source_cell": 13,
+      "source_size": [
+        180,
+        74
+      ],
+      "target_bbox": [
+        496,
+        228,
+        522,
+        244
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/MOUTH_INSIDE.png"
+    },
+    {
+      "name": "TEETH",
+      "source_cell": 14,
+      "source_size": [
+        173,
+        43
+      ],
+      "target_bbox": [
+        499,
+        229,
+        519,
+        234
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/TEETH.png"
+    },
+    {
+      "name": "TONGUE",
+      "source_cell": 15,
+      "source_size": [
+        114,
+        75
+      ],
+      "target_bbox": [
+        502,
+        236,
+        517,
+        243
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/TONGUE.png"
+    },
+    {
+      "name": "MOUTH_CLOSED_ALT",
+      "source_cell": 16,
+      "source_size": [
+        178,
+        13
+      ],
+      "target_bbox": [
+        498,
+        226,
+        520,
+        234
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/MOUTH_CLOSED_ALT.png"
+    },
+    {
+      "name": "MOUTH_UPPER",
+      "source_cell": 1,
+      "source_size": [
+        196,
+        32
+      ],
+      "target_bbox": [
+        498,
+        227,
+        520,
+        232
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/MOUTH_UPPER.png"
+    },
+    {
+      "name": "MOUTH_LOWER",
+      "source_cell": 2,
+      "source_size": [
+        100,
+        27
+      ],
+      "target_bbox": [
+        501,
+        231,
+        518,
+        235
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/MOUTH_LOWER.png"
+    },
+    {
+      "name": "BLUSH_RIGHT",
+      "source_cell": 3,
+      "source_size": [
+        277,
+        193
+      ],
+      "target_bbox": [
+        449,
+        203,
+        487,
+        221
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/BLUSH_RIGHT.png"
+    },
+    {
+      "name": "BLUSH_LEFT",
+      "source_cell": 4,
+      "source_size": [
+        279,
+        189
+      ],
+      "target_bbox": [
+        531,
+        203,
+        570,
+        221
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/BLUSH_LEFT.png"
+    },
+    {
+      "name": "EYEBROW_FULL_RIGHT",
+      "source_cell": 5,
+      "source_size": [
+        295,
+        70
+      ],
+      "target_bbox": [
+        452,
+        147,
+        489,
+        156
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/EYEBROW_FULL_RIGHT.png"
+    },
+    {
+      "name": "EYEBROW_FULL_LEFT",
+      "source_cell": 6,
+      "source_size": [
+        294,
+        70
+      ],
+      "target_bbox": [
+        525,
+        147,
+        565,
+        159
+      ],
+      "file": "03_PNG_Layers/Face_Components_Highres/EYEBROW_FULL_LEFT.png"
+    }
+  ]
+}

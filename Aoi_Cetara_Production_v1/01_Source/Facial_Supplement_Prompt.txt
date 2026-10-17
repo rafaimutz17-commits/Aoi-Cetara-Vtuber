@@ -1,0 +1,11 @@
+Use case: stylized-concept. Asset type: final supplementary facial components plate for the Aoi Cetara layered anime VTuber artwork. The supplied full-body image is a style/color reference.
+Generate a TRUE TRANSPARENT square canvas arranged in 3 columns and 2 rows of equal invisible cells. Each cell contains ONLY one isolated component with 25% empty margin, no touching neighboring cells. Absolutely no labels, no grid lines, no text, no face, no head, no eyes.
+Top row:
+1. An isolated delicate anime UPPER LIP edge for a closed NEUTRAL tiny mouth, almost horizontal shallow contour, thin desaturated rose-brown line with a small soft pale pink lip rim. No smile, no inner mouth, no lower lip.
+2. The matching isolated LOWER LIP edge alone, a very subtle short pale pink curve with natural tiny highlight. No upper lip, no mouth cavity.
+3. One isolated soft pink cheek blush gradient, oval, very subtle translucent edges fading smoothly to fully transparent, without any skin-colored backing.
+Bottom row:
+1. Matching second soft pink translucent cheek blush oval, same size and intensity.
+2. One isolated thin relaxed gently curved silver-blue anime EYEBROW matching character's icy blue hair, fuller at the inner edge and tapered outward. Not angry, not arched in surprise.
+3. Mirrored matching second silver-blue eyebrow, calm neutral shape.
+Refined anime drawing, clean edges, consistent scale, sparse minimal components. Transparent background and preserve subtle partial alpha. These are separate artwork parts for manual alignment and Live2D preparation, not rendered complete expressions. No decorative framing, no extra objects, no glows outside the components.
